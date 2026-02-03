@@ -1,0 +1,22 @@
+services:  
+  opa:
+    image: openpolicyagent/opa:1.12.2
+    container_name: opa
+    command:
+      - "--set=decision_logs.console=true"
+      - "run"
+      - "--server"
+      - "--addr=0.0.0.0:8181"
+      - "--log-level=info"
+      - "/policies"
+    volumes:
+      - ./policies:/policies:ro
+    ports:
+      - "8012:8181"
+    networks:
+      - data_net
+
+networks:
+  data_net:
+    external: true
+    name: data_net

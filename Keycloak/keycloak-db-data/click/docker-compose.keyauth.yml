@@ -1,0 +1,28 @@
+services:
+  #clickhouse:
+  keycloak_auth:
+    image: python:3.12-slim
+    container_name: click_key_auth
+    working_dir: /app
+    command: ["sh", "-lc", "pip install -r requirements.txt && python app.py"]
+    # We'll override with a real app below; keeping this here so compose validates.
+    # Replace with the Flask command in step 2.
+    volumes:
+      - ./keycloak-auth:/app
+    environment:
+      KEYCLOAK_BASE_URL: "http://keycloak:8080"
+      KEYCLOAK_REALM: "data-pipeline"
+      KEYCLOAK_CLIENT_ID: "Clickhouse"
+      KEYCLOAK_CLIENT_SECRET: "yz2wHJDVFIe4J9FGjBC7rtYSjm9KePZl"
+    networks:
+      - redpanda-interop
+      - grafana_default
+      - data_net
+
+networks:
+  grafana_default:
+    external: true
+  data_net:
+    external: true
+  redpanda-interop:
+    external: true

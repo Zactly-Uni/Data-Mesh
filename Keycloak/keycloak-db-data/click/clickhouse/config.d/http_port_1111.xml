@@ -1,0 +1,5 @@
+<clickhouse>
+  <http_port>1111</http_port>
+  <!-- Optional: reduce ambiguity by explicitly binding -->
+  <listen_host>0.0.0.0</listen_host>
+</clickhouse>

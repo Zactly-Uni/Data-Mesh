@@ -1,0 +1,67 @@
+services:
+  redpanda:
+    image: redpandadata/redpanda:latest
+    container_name: redpanda-kt
+    command:
+      - redpanda
+      - start
+      - --mode
+      - dev-container
+    ports:
+      - "1111:9092"   # host 1111 -> kafka 9092
+      - "1112:9644"   # host 1112 -> admin 9644
+      - "1113:8081"   # host 1113 -> schema registry 8081
+    volumes:
+      - redpanda_data:/var/lib/redpanda/data
+
+  redpanda_console:
+    image: redpandadata/console:latest
+    container_name: redpanda-console-kt
+    depends_on:
+      - redpanda
+    environment:
+      KAFKA_BROKERS: "redpanda:9092"
+      KAFKA_SCHEMAREGISTRY_ENABLED: "true"
+      KAFKA_SCHEMAREGISTRY_URLS: "http://redpanda:8081"
+      CONSOLE_LISTEN_ADDR: "0.0.0.0:2222"
+    ports:
+      - "2222:2222"
+
+  clickhouse:
+    image: clickhouse/clickhouse-server:latest
+    container_name: clickhouse-kt
+    environment:
+      CLICKHOUSE_DB: "default"
+      CLICKHOUSE_USER: "default"
+      CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: "1"
+    ports:
+      - "3333:8123"   # host 3333 -> container http 8123
+      - "3334:9000"   # host 3334 -> container native 9000
+    volumes:
+      - clickhouse_data:/var/lib/clickhouse
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:latest
+    container_name: keycloak2
+    command: ["start-dev"]
+    environment:
+      KEYCLOAK_ADMIN: "admin"
+      KEYCLOAK_ADMIN_PASSWORD: "admin"
+    ports:
+      - "4444:8080"
+
+  trino:
+    image: trinodb/trino:latest
+    container_name: trino-kt
+    ports:
+      - "5555:8080"
+
+  metabase:
+    image: metabase/metabase:latest
+    container_name: metabase-kt
+    ports:
+      - "6666:3000"
+
+volumes:
+  redpanda_data:
+  clickhouse_data:

@@ -1,0 +1,21 @@
+input:
+  generate:
+    interval: "30m"
+    mapping: 'root = {}'
+
+pipeline:
+  processors:
+    - http: { url: "https://verkehr.autobahn.de/o/autobahn/" }
+    - mapping: root = this.roads
+    - unarchive: { format: json_array }
+    
+    - http: 
+        url: ${! "https://.../autobahn/" + content().string() + "/services/warning" }
+    - unarchive: { format: json_array }
+    - mapping: 'root = { "id": this.identifier, "road": meta("autobahn"), "desc": this.title }'
+output:
+  sql_insert:
+    driver: postgres
+    table: traffic_warnings
+    columns: [warning_id, autobahn, title, description]
+    args_mapping: root = [this.id, this.road, this.desc]

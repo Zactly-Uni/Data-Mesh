@@ -1,0 +1,43 @@
+services:
+  clickhouse:
+    image: clickhouse/clickhouse-server:latest
+    container_name: clickhouse_keycloak
+
+    # Host:Container
+    ports:
+      - "9999:1111"
+
+    # Persist data + keep config overridable
+    volumes:
+      - clickhouse_data:/var/lib/clickhouse
+      - clickhouse_logs:/var/log/clickhouse-server
+      - ./clickhouse/config.d:/etc/clickhouse-server/config.d
+      - ./clickhouse/users.d:/etc/clickhouse-server/users.d
+
+    environment:
+      # Simple default user for now
+      CLICKHOUSE_DB: default
+      CLICKHOUSE_USER: ch_user
+      CLICKHOUSE_PASSWORD: ch_pass
+
+    ulimits:
+      nofile:
+        soft: 262144
+        hard: 262144
+
+    networks:
+      - redpanda-interop
+      - grafana_default
+      - data_net
+
+volumes:
+  clickhouse_data:
+  clickhouse_logs:
+
+networks:
+  grafana_default:
+    external: true
+  data_net:
+    external: true
+  redpanda-interop:
+    external: true

@@ -1,0 +1,11 @@
+authentication:
+  jwtSigningKey: "f6e7cf3a86f4cd26cb024a4e98aada5098629ccfbb6c30d7c7f699aa249acb01"
+  useSecureCookies: false
+
+  oidc:
+    enabled: true
+    issuerUrl: "http://fragjetzt-staging.mni.thm.de:8180/realms/data-pipeline"
+    clientId: "Repanda_console"
+    clientSecret: "A2iLtXyUOmkDehl2WW6oJTxcxS9udBOG"
+    redirectUrl: "http://fragjetzt-staging.mni.thm.de:8084/auth/callbacks/oidc"
+  

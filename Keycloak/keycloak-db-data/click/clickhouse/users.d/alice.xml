@@ -1,0 +1,16 @@
+<clickhouse>
+  <users>
+    <alice>
+      <profile>default</profile>
+      <quota>default</quota>
+      <networks>
+        <ip>::/0</ip>
+      </networks>
+
+      <http_authentication>
+        <server>keycloak_basic</server>
+        <scheme>basic</scheme>
+      </http_authentication>
+    </alice>
+  </users>
+</clickhouse>

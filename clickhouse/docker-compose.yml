@@ -1,0 +1,51 @@
+services:
+
+  jdbc-bridge:
+    image: clickhouse/jdbc-bridge
+    container_name: clickhouse-jdbc-bridge
+    depends_on:
+      - clickhouse
+    ports:
+      - "9019:9019"
+    environment:
+      CLICKHOUSE_HOST: clickhouse
+      CLICKHOUSE_PORT: 9000
+      CLICKHOUSE_USER: default
+      CLICKHOUSE_PASSWORD: zVNQxQbCK7nwUYYAiGsuxhf3RU0cO4gK
+
+  clickhouse:
+    image: clickhouse/clickhouse-server
+    container_name: clickhouse-server
+    restart: unless-stopped
+    ports:
+      - "18123:8123"  # service port
+      - "19000:9000"  # clickhouse-client
+    environment:
+      CLICKHOUSE_PASSWORD: zVNQxQbCK7nwUYYAiGsuxhf3RU0cO4gK
+    volumes:
+      - clickhouse_data:/var/lib/clickhouse
+      - clickhouse_logs:/var/log/clickhouse-server
+    # Optional
+    cap_add:
+      - SYS_NICE   # Scheduling priorities setzen
+      - NET_ADMIN  # Netzwerkeinstellungen (auf Socket Ebene)
+      - IPC_LOCK   # Memory Pinning (Kein Swap auslagern)
+    # Wird benötigt, weil viele offene Dateien/Deskriptoren
+    networks:
+      - redpanda-interop
+      - data_net
+    ulimits:
+      nofile:
+        soft: 262144
+        hard: 262144
+
+volumes:
+  clickhouse_data:
+  clickhouse_logs:
+
+networks:
+  data_net:
+    name: data_net
+  redpanda-interop:
+    name: redpanda-interop
+    external: true

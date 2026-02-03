@@ -1,0 +1,19 @@
+input:
+  generate:
+    count: 1
+    mapping: 'root = {}'
+
+pipeline:
+  processors:
+    - http:
+        url: "https://api.open-meteo.com/v1/forecast?latitude=50.34&longitude=8.76&hourly=temperature_2m"
+        verb: GET
+    - mapping: |
+        root.temp = this.hourly.temperature_2m.0
+        root.success = true
+
+output:
+  redpanda:
+    seed_brokers: 
+      - "redpanda-0:9092,redpanda-1:9092,redpanda-2:9092"
+    topic: weather-data

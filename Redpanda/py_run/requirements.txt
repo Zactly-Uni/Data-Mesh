@@ -1,0 +1,7 @@
+streamlit
+requests
+geopandas
+kafka-python
+fiona
+shapely
+rtree

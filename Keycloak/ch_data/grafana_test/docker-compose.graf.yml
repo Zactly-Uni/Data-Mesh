@@ -1,0 +1,36 @@
+services:
+  grafana:
+    image: grafana/grafana-oss:latest
+    container_name: grafana_keycloak_test
+    ports:
+      - "3100:3000"
+    networks:
+      - redpanda-interop
+    environment:
+ 
+      GF_SERVER_ROOT_URL: "http://fragjetzt-staging.mni.thm.de:3100"
+    # GF_AUTH_GENERIC_OAUTH_REDIRECT_URI: "http://fragjetzt-staging.mni.thm.de:8180/login/generic_oauth"
+
+      GF_AUTH_GENERIC_OAUTH_ENABLED: "true"
+      GF_AUTH_GENERIC_OAUTH_NAME: "Keycloak"
+      GF_AUTH_GENERIC_OAUTH_ALLOW_SIGN_UP: "true"
+  
+      GF_AUTH_GENERIC_OAUTH_CLIENT_ID: "Grafana_test"
+      GF_AUTH_GENERIC_OAUTH_CLIENT_SECRET: "vHNLwv4xY9cVTxXG4GG7ekO0nHWn9JK6"
+
+      GF_AUTH_GENERIC_OAUTH_SCOPES: "openid profile email"
+      GF_AUTH_GENERIC_OAUTH_AUTH_URL: "http://fragjetzt-staging.mni.thm.de:8180/realms/data-pipeline/protocol/openid-connect/auth"
+      GF_AUTH_GENERIC_OAUTH_TOKEN_URL: "http://keycloak:8080/realms/data-pipeline/protocol/openid-connect/token"
+      GF_AUTH_GENERIC_OAUTH_API_URL: "http://keycloak:8080/realms/data-pipeline/protocol/openid-connect/userinfo"
+
+      GF_AUTH_GENERIC_OAUTH_ROLE_ATTRIBUTE_PATH: "contains(roles[*], 'admin') && 'Admin' || contains(roles[*], 'data-engineer') && 'Editor' || 'Viewer'"
+      
+    # GF_SECURITY_ADMIN_PASSWORD: "Test1234!"
+    # GF_USERS_ALLOW_SIGN_UP: "false"
+    volumes:
+      - ./grafana_test:/var/lib/grafana
+
+networks:
+  redpanda-interop:
+    name: redpanda-interop
+    external: true

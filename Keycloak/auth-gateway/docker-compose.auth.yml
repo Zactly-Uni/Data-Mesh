@@ -1,0 +1,93 @@
+version: "3.8"
+
+services:
+  keycloak-db:
+    image: postgres:16
+    container_name: keycloak-db
+    environment:
+      POSTGRES_DB: keycloak
+      POSTGRES_USER: keycloak
+      POSTGRES_PASSWORD: keycloakpass
+    networks:
+      -  redpanda-interop
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:26.0
+    container_name: keycloak
+    command: start-dev
+    environment:
+      KC_DB: postgres
+      KC_DB_URL_HOST: keycloak-db
+      KC_DB_URL_DATABASE: keycloak
+      KC_DB_USERNAME: keycloak
+      KC_DB_PASSWORD: keycloakpass
+
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+
+      # Keycloak lives behind the gateway under /keycloak
+      KC_HTTP_ENABLED: "true"
+      KC_PROXY: edge
+      KC_PROXY_HEADERS: xforwarded
+      KC_HOSTNAME_URL: http://fragjetzt-staging.mni.thm.de:18180
+      KC_HOSTNAME_STRICT: "false"
+      KC_HOSTNAME_STRICT_HTTPS: "false"
+      KC_HTTP_RELATIVE_PATH: /keycloak
+    depends_on:
+      - keycloak-db
+    networks:
+      -  redpanda-interop
+
+  oauth2-proxy:
+    image: quay.io/oauth2-proxy/oauth2-proxy:v7.7.1
+    restart: unless-stopped
+    container_name: oauth2-proxy
+    environment:
+      # EDIT #1: set this to the URL you use in the browser
+      OAUTH2_PROXY_REDIRECT_URL: http://fragjetzt-staging.mni.thm.de:18180/oauth2/callback
+
+      # EDIT #2: set this same host here
+      OAUTH2_PROXY_OIDC_ISSUER_URL: http://keycloak:8080/keycloak/realms/data-platform
+
+      # Must match the Keycloak client we'll create
+      OAUTH2_PROXY_CLIENT_ID: clickhouse-ui
+
+      # EDIT #3: paste the Keycloak client secret here later
+      OAUTH2_PROXY_CLIENT_SECRET: REPLACE_WITH_CLIENT_SECRET
+
+      # EDIT #4: paste a generated cookie secret here
+      OAUTH2_PROXY_COOKIE_SECRET: b479d6425ff6197f081fba76c226b945
+
+      OAUTH2_PROXY_PROVIDER: oidc
+      OAUTH2_PROXY_EMAIL_DOMAINS: "*"
+      OAUTH2_PROXY_HTTP_ADDRESS: 0.0.0.0:4180
+
+      # no TLS yet
+      OAUTH2_PROXY_COOKIE_SECURE: "false"
+
+      # Upstream is your existing ClickHouse HTTP UI
+      # EDIT #5: set this to your existing clickhouse service/container and port
+      OAUTH2_PROXY_UPSTREAMS: http://fragjetzt-staging.mni.thm.de:18123/
+
+      OAUTH2_PROXY_SET_XAUTHREQUEST: "true"
+      OAUTH2_PROXY_PASS_ACCESS_TOKEN: "true"
+      OAUTH2_PROXY_PASS_USER_HEADERS: "true"
+    networks:
+      -  redpanda-interop
+
+  gateway:
+    image: nginx:alpine
+    container_name: auth-gateway
+    ports:
+      - "18180:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - oauth2-proxy
+      - keycloak
+    networks:
+      -  redpanda-interop
+
+networks:
+   redpanda-interop:
+    external: true

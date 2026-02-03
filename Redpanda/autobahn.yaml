@@ -1,0 +1,80 @@
+input:
+  # Wir nutzen 'generate', um die Pipeline alle 30 Minuten anzustoßen
+  generate:
+    interval: "30m"
+    mapping: 'root = {}' # Leeres Objekt als Startsignal
+
+pipeline:
+  processors:
+    # ---------------------------------------------------------
+    # SCHRITT 1: Die Master-Liste holen
+    # ---------------------------------------------------------
+    - http:
+        url: https://verkehr.autobahn.de/o/autobahn/
+        verb: GET
+    
+    # Ergebnis ist z.B.: { "roads": ["A1", "A2", "A3", ...] }
+    # Wir extrahieren nur die Liste.
+    - mapping: root = this.roads
+
+    # ---------------------------------------------------------
+    # SCHRITT 2: Aus 1 Nachricht mach 100 (für jede Autobahn eine)
+    # ---------------------------------------------------------
+    - unarchive:
+        format: json_array
+
+    # Jetzt fließt hier z.B. nur der String "A1" durch.
+    # Wir speichern diesen Namen in den Metadaten, damit wir ihn später haben.
+    - mapping: |
+        meta autobahn_id = this
+        root = this
+
+    # ---------------------------------------------------------
+    # SCHRITT 3: Dynamischer Abruf der Warnungen
+    # ---------------------------------------------------------
+    # Wir nutzen 'try', falls eine Autobahn mal 404 zurückgibt (keine Daten).
+    - try:
+        - http:
+            # HIER PASSIERT DIE MAGIE: Wir bauen die URL zusammen!
+            # content().string() ist der Autobahn-Name (z.B. "A1")
+            url: ${! "https://verkehr.autobahn.de/o/autobahn/" + content().string() + "/services/warning" }
+            verb: GET
+            retries: 1 # Nur 1x wiederholen, um die API nicht zu nerven
+
+    # Falls der Abruf fehlschlug (z.B. API Error), löschen wir die Nachricht
+    - catch:
+        - mapping: root = deleted()
+
+    # ---------------------------------------------------------
+    # SCHRITT 4: Datenverarbeitung (Wie vorher)
+    # ---------------------------------------------------------
+    # 1. Leere Warnlisten löschen
+    - bloblang: |
+        let w = this.warning
+        root = if $w.type() == "array" && $w.length() > 0 { $w } else { deleted() }
+    # 2. Array aufbrechen (Ein Event pro Warnung)
+    - unarchive:
+        format: json_array
+
+    # 3. Finales Mapping
+    - mapping: |
+        root.warning_id = this.identifier
+        # Wir holen den Autobahn-Namen aus den Metadaten von Schritt 2
+        root.autobahn = meta("autobahn_id") 
+        root.title = this.title
+        root.description = this.description.join(" ")
+
+output:
+  sql_insert:
+    driver: postgres
+    dsn: postgres://postgresuser:postgrespw@postgres:5432/pandashopf?sslmode=disable&search_path=public
+    table: traffic_warnings
+    columns: [warning_id, autobahn, title, description]
+    suffix: "ON CONFLICT (warning_id) DO UPDATE SET description = EXCLUDED.description, title = EXCLUDED.title, autobahn = EXCLUDED.autobahn"
+    args_mapping: |
+      root = [
+        this.warning_id,
+        this.autobahn,
+        this.title,
+        this.description
+      ]

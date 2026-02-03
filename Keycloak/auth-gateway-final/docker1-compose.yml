@@ -1,0 +1,90 @@
+services:
+  keycloak-db:
+    image: postgres:16
+    container_name: keycloak-db
+    environment:
+      POSTGRES_DB: keycloak
+      POSTGRES_USER: keycloak
+      POSTGRES_PASSWORD: keycloakpass
+    networks:
+      - redpanda-interop
+    restart: unless-stopped
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:26.0
+    container_name: keycloak
+    command: start-dev
+    environment:
+      KC_DB: postgres
+      KC_DB_URL_HOST: keycloak-db
+      KC_DB_URL_DATABASE: keycloak
+      KC_DB_USERNAME: keycloak
+      KC_DB_PASSWORD: keycloakpass
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+      KC_HOSTNAME: fragjetzt-staging.mni.thm.de
+      KC_HOSTNAME_PORT: 18181
+      KC_HOSTNAME_STRICT: "false"
+      KC_HOSTNAME_STRICT_HTTPS: "false"
+      KC_PROXY_HEADERS: xforwarded
+      KC_HTTP_ENABLED: "true"
+    depends_on:
+      - keycloak-db
+    ports:
+      # Keycloak directly on its own port (no nginx in front)
+      - "18181:8080"
+    networks:
+      - redpanda-interop
+    restart: unless-stopped
+
+  oauth2-proxy:
+    image: quay.io/oauth2-proxy/oauth2-proxy:v7.7.1
+    container_name: oauth2-proxy
+    environment:
+      OAUTH2_PROXY_PROVIDER: oidc
+
+      # EDIT #1: issuer via docker DNS (recommended)
+      OAUTH2_PROXY_OIDC_ISSUER_URL: http://fragjetzt-staging.mni.thm.de:18181/realms/data-platform
+
+      # EDIT #2: browser callback (your protected gateway URL)
+      OAUTH2_PROXY_REDIRECT_URL: http://fragjetzt-staging.mni.thm.de:18180/oauth2/callback
+
+      # EDIT #3: client values (set after creating client in Keycloak)
+      OAUTH2_PROXY_CLIENT_ID: clickhouse-ui
+      OAUTH2_PROXY_CLIENT_SECRET: r3YY4rvaIxh1a1bs3Lqapip77e2NiJVB
+
+      # cookie secret MUST be 32 chars (openssl rand -hex 16)
+      OAUTH2_PROXY_COOKIE_SECRET: "3442799e3bdc6f71c24f9e758a469627"
+
+      OAUTH2_PROXY_EMAIL_DOMAINS: "*"
+      OAUTH2_PROXY_HTTP_ADDRESS: 0.0.0.0:4180
+      OAUTH2_PROXY_COOKIE_SECURE: "false"
+
+      # Your existing clickhouse is reachable as clickhouse-server:8123 on redpanda-interop
+      OAUTH2_PROXY_UPSTREAMS: http://clickhouse-server:8123/
+
+      OAUTH2_PROXY_SET_XAUTHREQUEST: "true"
+      OAUTH2_PROXY_PASS_USER_HEADERS: "true"
+      OAUTH2_PROXY_PASS_ACCESS_TOKEN: "true"
+    depends_on:
+      - keycloak
+    networks:
+      - redpanda-interop
+    restart: unless-stopped
+
+  gateway:
+    image: nginx:alpine
+    container_name: auth-gateway
+    ports:
+      - "18180:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    depends_on:
+      - oauth2-proxy
+    networks:
+      - redpanda-interop
+    restart: unless-stopped
+
+networks:
+  redpanda-interop:
+    external: true

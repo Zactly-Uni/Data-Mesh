@@ -1,0 +1,4 @@
+requests>=2.31.0
+kafka-python>=2.0.2
+# Optional (only if you use --mode playwright)
+playwright>=1.45.0

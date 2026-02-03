@@ -1,0 +1,113 @@
+http:
+  middlewares:
+    oauth-auth:
+      forwardAuth:
+        address: "http://oauth2-proxy:4180/oauth2/auth"
+        trustForwardHeader: true
+        authResponseHeaders:
+          - "X-Auth-Request-User"
+          - "X-Auth-Request-Email"
+          - "Authorization"
+
+    # Optional: force HTTPS redirect (recommended)
+   # redirect-to-https:
+    #  redirectScheme:
+     #   scheme: https
+      #  permanent: true
+
+  routers:
+    # === oauth2-proxy itself (callback + sign-in) ===
+    oauth2-proxy-http:
+      rule: "Host(`auth.fragjetzt-staging.mni.thm.de`)"
+      entryPoints: ["web"]
+    #  middlewares: ["redirect-to-https"]
+      service: oauth2-proxy-svc
+
+    #oauth2-proxy-https:
+     # rule: "Host(`auth.fragjetzt-staging.mni.thm.de`)"
+      #entryPoints: ["websecure"]
+      #service: oauth2-proxy-svc
+      #tls: {certResolver: le}  # <<CHANGE_ME: add certResolver if using Let's Encrypt>>
+      
+    keycloak-http:
+      rule: "Host(`sso.fragjetzt-staging.mni.thm.de`)"
+      entryPoints: ["web"]
+     # middlewares: ["redirect-to-https"]
+      service: keycloak-svc
+
+    #keycloak-https:
+     # rule: "Host(`sso.fragjetzt-staging.mni.thm.de`)"
+      #entryPoints: ["websecure"]
+      #service: keycloak-svc
+      #tls: {certResolver: le}
+
+
+
+    # === Example protected app: Grafana ===
+    grafana-http:
+      rule: "Host(`grafana.fragjetzt-staging.mni.thm.de`)"
+      entryPoints: ["web"]
+      middlewares: ["oauth-auth"]
+      service: grafana-svc
+
+    #grafana-https:
+     # rule: "Host(`grafana.fragjetzt-staging.mni.thm.de`)"
+      #entryPoints: ["websecure"]
+      #middlewares: ["oauth-auth"]
+      #service: grafana-svc
+      #tls: {certResolver: le}  # <<CHANGE_ME: add certResolver if using Let's Encrypt>>
+
+    # === Example protected app: Metabase ===
+    metabase-http:
+      rule: "Host(`metabase.fragjetzt-staging.mni.thm.de`)"
+      entryPoints: ["web"]
+      middlewares: ["oauth-auth"]
+      service: metabase-svc
+
+   # metabase-https:
+    #  rule: "Host(`metabase.fragjetzt-staging.mni.thm.de`)"
+     # entryPoints: ["websecure"]
+    #  middlewares: ["oauth-auth"]
+     # service: metabase-svc
+     # tls: {certResolver: le}  # <<CHANGE_ME: add certResolver if using Let's Encrypt>>
+
+    # === Example protected app: NiFi ===
+    nifi-http:
+      rule: "Host(`nifi.fragjetzt-staging.mni.thm.de`)"
+      entryPoints: ["web"]
+      middlewares: ["oauth-auth"]
+      service: nifi-svc
+
+    #nifi-https:
+     # rule: "Host(`nifi.fragjetzt-staging.mni.thm.de`)"
+      #entryPoints: ["websecure"]
+     # middlewares: ["oauth-auth"]
+     # service: nifi-svc
+      #tls: {certResolver: le}  # <<CHANGE_ME: add certResolver if using Let's Encrypt>>
+
+  services:
+    oauth2-proxy-svc:
+      loadBalancer:
+        servers:
+          - url: "http://oauth2-proxy:4180"
+    keycloak-svc:
+      loadBalancer:
+        servers:
+          - url: "http://keycloak2:3333"
+
+    # <<CHANGE_ME: upstream URL must be reachable from Traefik via the external network>>
+    # Use the container/service DNS name + internal port.
+    grafana-svc:
+      loadBalancer:
+        servers:
+          - url: "http://grafana:3000"
+
+    metabase-svc:
+      loadBalancer:
+        servers:
+          - url: "http://metabase:3000"
+
+    nifi-svc:
+      loadBalancer:
+        servers:
+          - url: "http://nifi:8080"

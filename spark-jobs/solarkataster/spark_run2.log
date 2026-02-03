@@ -1,0 +1,201 @@
+:: loading settings :: url = jar:file:/opt/spark/jars/ivy-2.5.1.jar!/org/apache/ivy/core/settings/ivysettings.xml
+Ivy Default Cache set to: /tmp/.ivy2/cache
+The jars for the packages stored in: /tmp/.ivy2/jars
+com.clickhouse#clickhouse-jdbc added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-d1fe8cb4-f947-45dd-9061-b6dd07ca5c33;1.0
+	confs: [default]
+	found com.clickhouse#clickhouse-jdbc;0.6.0 in central
+:: resolution report :: resolve 116ms :: artifacts dl 4ms
+	:: modules in use:
+	com.clickhouse#clickhouse-jdbc;0.6.0 from central in [default]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   1   |   0   |   0   |   0   ||   1   |   0   |
+	---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-d1fe8cb4-f947-45dd-9061-b6dd07ca5c33
+	confs: [default]
+	0 artifacts copied, 1 already retrieved (0kB/5ms)
+26/01/16 15:59:54 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+26/01/16 15:59:55 INFO SparkContext: Running Spark version 3.4.4
+26/01/16 15:59:55 INFO ResourceUtils: ==============================================================
+26/01/16 15:59:55 INFO ResourceUtils: No custom resources configured for spark.driver.
+26/01/16 15:59:55 INFO ResourceUtils: ==============================================================
+26/01/16 15:59:55 INFO SparkContext: Submitted application: SolarkatasterTransform
+26/01/16 15:59:55 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+26/01/16 15:59:55 INFO ResourceProfile: Limiting resource is cpu
+26/01/16 15:59:55 INFO ResourceProfileManager: Added ResourceProfile id: 0
+26/01/16 15:59:55 INFO SecurityManager: Changing view acls to: spark
+26/01/16 15:59:55 INFO SecurityManager: Changing modify acls to: spark
+26/01/16 15:59:55 INFO SecurityManager: Changing view acls groups to: 
+26/01/16 15:59:55 INFO SecurityManager: Changing modify acls groups to: 
+26/01/16 15:59:55 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: spark; groups with view permissions: EMPTY; users with modify permissions: spark; groups with modify permissions: EMPTY
+26/01/16 15:59:55 INFO Utils: Successfully started service 'sparkDriver' on port 40485.
+26/01/16 15:59:55 INFO SparkEnv: Registering MapOutputTracker
+26/01/16 15:59:55 INFO SparkEnv: Registering BlockManagerMaster
+26/01/16 15:59:55 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+26/01/16 15:59:55 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+26/01/16 15:59:55 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+26/01/16 15:59:55 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-9c7f703a-9357-4f0c-81ef-b47ad0cf1232
+26/01/16 15:59:55 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+26/01/16 15:59:55 INFO SparkEnv: Registering OutputCommitCoordinator
+26/01/16 15:59:56 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+26/01/16 15:59:56 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+26/01/16 15:59:56 INFO SparkContext: Added JAR file:///tmp/.ivy2/jars/com.clickhouse_clickhouse-jdbc-0.6.0.jar at spark://spark-master:40485/jars/com.clickhouse_clickhouse-jdbc-0.6.0.jar with timestamp 1768579194995
+26/01/16 15:59:56 INFO SparkContext: Added file file:///tmp/.ivy2/jars/com.clickhouse_clickhouse-jdbc-0.6.0.jar at spark://spark-master:40485/files/com.clickhouse_clickhouse-jdbc-0.6.0.jar with timestamp 1768579194995
+26/01/16 15:59:56 INFO Utils: Copying /tmp/.ivy2/jars/com.clickhouse_clickhouse-jdbc-0.6.0.jar to /tmp/spark-45a3e650-afd4-4758-8473-776768f67698/userFiles-df3081d7-043f-4334-bc9c-f4032d60ae36/com.clickhouse_clickhouse-jdbc-0.6.0.jar
+26/01/16 15:59:56 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://spark-master:7077...
+26/01/16 15:59:56 INFO TransportClientFactory: Successfully created connection to spark-master/172.26.0.3:7077 after 57 ms (0 ms spent in bootstraps)
+26/01/16 15:59:56 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20260116155956-0004
+26/01/16 15:59:56 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20260116155956-0004/0 on worker-20260116145616-172.26.0.4-46319 (172.26.0.4:46319) with 34 core(s)
+26/01/16 15:59:56 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 45871.
+26/01/16 15:59:56 INFO NettyBlockTransferService: Server created on spark-master:45871
+26/01/16 15:59:56 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+26/01/16 15:59:56 INFO StandaloneSchedulerBackend: Granted executor ID app-20260116155956-0004/0 on hostPort 172.26.0.4:46319 with 34 core(s), 1024.0 MiB RAM
+26/01/16 15:59:56 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, spark-master, 45871, None)
+26/01/16 15:59:56 INFO BlockManagerMasterEndpoint: Registering block manager spark-master:45871 with 434.4 MiB RAM, BlockManagerId(driver, spark-master, 45871, None)
+26/01/16 15:59:56 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, spark-master, 45871, None)
+26/01/16 15:59:56 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20260116155956-0004/0 is now RUNNING
+26/01/16 15:59:56 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, spark-master, 45871, None)
+26/01/16 15:59:57 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+26/01/16 15:59:57 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+26/01/16 15:59:57 INFO SharedState: Warehouse path is 'file:/opt/spark/work-dir/spark-warehouse'.
+26/01/16 15:59:58 WARN ClickHouseHttpConnectionFactory: Error when creating APACHE_HTTP_CLIENT, fall back to HTTP_URL_CONNECTION
+java.lang.NoClassDefFoundError: org/apache/hc/client5/http/io/HttpClientConnectionManager
+	at com.clickhouse.client.http.ClickHouseHttpConnectionFactory.createConnection(ClickHouseHttpConnectionFactory.java:22)
+	at com.clickhouse.client.http.ClickHouseHttpClient.newConnection(ClickHouseHttpClient.java:56)
+	at com.clickhouse.client.http.ClickHouseHttpClient.newConnection(ClickHouseHttpClient.java:26)
+	at com.clickhouse.client.AbstractClient.getConnection(AbstractClient.java:198)
+	at com.clickhouse.client.http.ClickHouseHttpClient.send(ClickHouseHttpClient.java:90)
+	at com.clickhouse.client.AbstractClient.execute(AbstractClient.java:280)
+	at com.clickhouse.client.ClickHouseClientBuilder$Agent.sendOnce(ClickHouseClientBuilder.java:282)
+	at com.clickhouse.client.ClickHouseClientBuilder$Agent.send(ClickHouseClientBuilder.java:294)
+	at com.clickhouse.client.ClickHouseClientBuilder$Agent.execute(ClickHouseClientBuilder.java:349)
+	at com.clickhouse.client.ClickHouseClient.executeAndWait(ClickHouseClient.java:878)
+	at com.clickhouse.client.ClickHouseRequest.executeAndWait(ClickHouseRequest.java:2154)
+	at com.clickhouse.jdbc.internal.ClickHouseConnectionImpl.getServerInfo(ClickHouseConnectionImpl.java:128)
+	at com.clickhouse.jdbc.internal.ClickHouseConnectionImpl.<init>(ClickHouseConnectionImpl.java:335)
+	at com.clickhouse.jdbc.internal.ClickHouseConnectionImpl.<init>(ClickHouseConnectionImpl.java:288)
+	at com.clickhouse.jdbc.ClickHouseDriver.connect(ClickHouseDriver.java:157)
+	at com.clickhouse.jdbc.ClickHouseDriver.connect(ClickHouseDriver.java:41)
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.BasicConnectionProvider.getConnection(BasicConnectionProvider.scala:49)
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.ConnectionProviderBase.create(ConnectionProvider.scala:102)
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1(JdbcDialects.scala:123)
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1$adapted(JdbcDialects.scala:119)
+	at org.apache.spark.sql.execution.datasources.jdbc.JDBCRDD$.getQueryOutputSchema(JDBCRDD.scala:63)
+	at org.apache.spark.sql.execution.datasources.jdbc.JDBCRDD$.resolveTable(JDBCRDD.scala:58)
+	at org.apache.spark.sql.execution.datasources.jdbc.JDBCRelation$.getSchema(JDBCRelation.scala:241)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcRelationProvider.createRelation(JdbcRelationProvider.scala:37)
+	at org.apache.spark.sql.execution.datasources.DataSource.resolveRelation(DataSource.scala:346)
+	at org.apache.spark.sql.DataFrameReader.loadV1Source(DataFrameReader.scala:229)
+	at org.apache.spark.sql.DataFrameReader.$anonfun$load$2(DataFrameReader.scala:211)
+	at scala.Option.getOrElse(Option.scala:189)
+	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:211)
+	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ClassNotFoundException: org.apache.hc.client5.http.io.HttpClientConnectionManager
+	at java.base/java.net.URLClassLoader.findClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
+	... 42 more
+26/01/16 15:59:59 INFO StandaloneSchedulerBackend$StandaloneDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (172.26.0.4:56530) with ID 0,  ResourceProfileId 0
+26/01/16 16:00:00 INFO BlockManagerMasterEndpoint: Registering block manager 172.26.0.4:44927 with 434.4 MiB RAM, BlockManagerId(0, 172.26.0.4, 44927, None)
+Traceback (most recent call last):
+  File "/spark-jobs/solarkataster/solarkataster_transform.py", line 15, in <module>
+    df = spark.read.format("jdbc") \
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/sql/readwriter.py", line 307, in load
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1322, in __call__
+  File "/opt/spark/python/lib/pyspark.zip/pyspark/errors/exceptions/captured.py", line 169, in deco
+  File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/protocol.py", line 326, in get_return_value
+py4j.protocol.Py4JJavaError: An error occurred while calling o32.load.
+: java.sql.SQLException: connect timed out, server ClickHouseNode [uri=http://fragjetzt-staging.mni.thm.de:8123/solar_data_mesh]@1290498975
+	at com.clickhouse.jdbc.SqlExceptionUtils.handle(SqlExceptionUtils.java:85)
+	at com.clickhouse.jdbc.SqlExceptionUtils.create(SqlExceptionUtils.java:31)
+	at com.clickhouse.jdbc.SqlExceptionUtils.handle(SqlExceptionUtils.java:90)
+	at com.clickhouse.jdbc.internal.ClickHouseConnectionImpl.getServerInfo(ClickHouseConnectionImpl.java:131)
+	at com.clickhouse.jdbc.internal.ClickHouseConnectionImpl.<init>(ClickHouseConnectionImpl.java:335)
+	at com.clickhouse.jdbc.internal.ClickHouseConnectionImpl.<init>(ClickHouseConnectionImpl.java:288)
+	at com.clickhouse.jdbc.ClickHouseDriver.connect(ClickHouseDriver.java:157)
+	at com.clickhouse.jdbc.ClickHouseDriver.connect(ClickHouseDriver.java:41)
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.BasicConnectionProvider.getConnection(BasicConnectionProvider.scala:49)
+	at org.apache.spark.sql.execution.datasources.jdbc.connection.ConnectionProviderBase.create(ConnectionProvider.scala:102)
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1(JdbcDialects.scala:123)
+	at org.apache.spark.sql.jdbc.JdbcDialect.$anonfun$createConnectionFactory$1$adapted(JdbcDialects.scala:119)
+	at org.apache.spark.sql.execution.datasources.jdbc.JDBCRDD$.getQueryOutputSchema(JDBCRDD.scala:63)
+	at org.apache.spark.sql.execution.datasources.jdbc.JDBCRDD$.resolveTable(JDBCRDD.scala:58)
+	at org.apache.spark.sql.execution.datasources.jdbc.JDBCRelation$.getSchema(JDBCRelation.scala:241)
+	at org.apache.spark.sql.execution.datasources.jdbc.JdbcRelationProvider.createRelation(JdbcRelationProvider.scala:37)
+	at org.apache.spark.sql.execution.datasources.DataSource.resolveRelation(DataSource.scala:346)
+	at org.apache.spark.sql.DataFrameReader.loadV1Source(DataFrameReader.scala:229)
+	at org.apache.spark.sql.DataFrameReader.$anonfun$load$2(DataFrameReader.scala:211)
+	at scala.Option.getOrElse(Option.scala:189)
+	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:211)
+	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:172)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.base/java.lang.reflect.Method.invoke(Unknown Source)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+	at py4j.Gateway.invoke(Gateway.java:282)
+	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+	at java.base/java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.New(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.New(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getOutputStream(Unknown Source)
+	at com.clickhouse.client.http.HttpUrlConnectionImpl.post(HttpUrlConnectionImpl.java:233)
+	at com.clickhouse.client.http.ClickHouseHttpClient.send(ClickHouseHttpClient.java:124)
+	at com.clickhouse.client.AbstractClient.execute(AbstractClient.java:280)
+	at com.clickhouse.client.ClickHouseClientBuilder$Agent.sendOnce(ClickHouseClientBuilder.java:282)
+	at com.clickhouse.client.ClickHouseClientBuilder$Agent.send(ClickHouseClientBuilder.java:294)
+	at com.clickhouse.client.ClickHouseClientBuilder$Agent.execute(ClickHouseClientBuilder.java:349)
+	at com.clickhouse.client.ClickHouseClient.executeAndWait(ClickHouseClient.java:878)
+	at com.clickhouse.client.ClickHouseRequest.executeAndWait(ClickHouseRequest.java:2154)
+	at com.clickhouse.jdbc.internal.ClickHouseConnectionImpl.getServerInfo(ClickHouseConnectionImpl.java:128)
+	... 30 more
+
+26/01/16 16:00:03 INFO SparkContext: Invoking stop() from shutdown hook
+26/01/16 16:00:03 INFO SparkContext: SparkContext is stopping with exitCode 0.
+26/01/16 16:00:03 INFO SparkUI: Stopped Spark web UI at http://spark-master:4040
+26/01/16 16:00:03 INFO StandaloneSchedulerBackend: Shutting down all executors
+26/01/16 16:00:03 INFO StandaloneSchedulerBackend$StandaloneDriverEndpoint: Asking each executor to shut down
+26/01/16 16:00:03 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+26/01/16 16:00:03 INFO MemoryStore: MemoryStore cleared
+26/01/16 16:00:03 INFO BlockManager: BlockManager stopped
+26/01/16 16:00:03 INFO BlockManagerMaster: BlockManagerMaster stopped
+26/01/16 16:00:03 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+26/01/16 16:00:03 INFO SparkContext: Successfully stopped SparkContext
+26/01/16 16:00:03 INFO ShutdownHookManager: Shutdown hook called
+26/01/16 16:00:03 INFO ShutdownHookManager: Deleting directory /tmp/spark-2681e8ce-0f68-487e-873c-dadaeaca02be
+26/01/16 16:00:03 INFO ShutdownHookManager: Deleting directory /tmp/spark-45a3e650-afd4-4758-8473-776768f67698/pyspark-c1707291-5049-40c4-94e0-13a6c26e5e94
+26/01/16 16:00:03 INFO ShutdownHookManager: Deleting directory /tmp/spark-45a3e650-afd4-4758-8473-776768f67698

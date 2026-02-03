@@ -1,0 +1,39 @@
+# redpanda/redpanda.yaml
+redpanda:
+  data_directory: /var/lib/redpanda/data
+  node_id: 0
+
+  rpc_server:
+    address: 0.0.0.0
+    port: 33145
+
+  kafka_api:
+    - name: internal
+      address: 0.0.0.0
+      port: 1111
+    - name: external
+      address: 0.0.0.0
+      port: 1111
+
+  advertised_kafka_api:
+    - name: internal
+      address: redpanda
+      port: 1111
+    - name: external
+      address: localhost
+      port: 1111
+
+  admin:
+    - address: 0.0.0.0
+      port: 1112
+
+schema_registry:
+  schema_registry_api:
+    - name: internal
+      address: 0.0.0.0
+      port: 1113
+    - name: external
+      address: 0.0.0.0
+      port: 1113
+
+pandaproxy: {}   # keep empty for now

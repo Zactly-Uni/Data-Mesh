@@ -1,0 +1,20 @@
+services:
+  clickhouse:
+    image: clickhouse/clickhouse-server:latest
+    container_name: clickhouse_test_keycloak
+    hostname: keycloak_click
+    ports:
+      - "8923:8123"   # HTTP
+    ulimits:
+      nofile:
+        soft: 262144
+        hard: 262144
+    volumes:
+      - ch_data:/var/lib/clickhouse
+      - ch_logs:/var/log/clickhouse-server
+    environment:
+      # Simple defaults; user is "default" with no password unless you set one.
+      CLICKHOUSE_DB: default
+volumes:
+  ch_data:
+  ch_logs:

@@ -1,0 +1,18 @@
+services:
+  metabase:
+    image: metabase/metabase:v0.58.1
+    container_name: metabase
+    volumes:
+      - metabase_data:/metabase.db
+    ports:
+      - "8011:3000"
+    networks:
+      - data_net
+
+networks:
+  data_net:
+    external: true
+    name: data_net
+
+volumes:
+  metabase_data:

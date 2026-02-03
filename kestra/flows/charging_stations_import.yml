@@ -1,0 +1,89 @@
+id: charging_stations_import
+namespace: datamesh.ladestationen
+
+description: "Importiert Ladesäulen-Infrastruktur (CSV High-Speed) aus dem BundesNetzagentur Register (Hessen)"
+
+inputs:
+  - id: cities
+    type: ARRAY
+    itemType: STRING
+    defaults: []
+    description: "Optional: Liste der Städte. Leer = Ganz Hessen."
+
+  - id: limit
+    type: INT
+    defaults: 0
+    description: "Begrenzt die Anzahl der importierten Zeilen (0 = Alle). Ideal zum Testen (z.B. 1000)."
+
+  - id: min_power
+    type: FLOAT
+    defaults: 0.0
+    description: "Mindestleistung in kW (z.B. 50)."
+
+  - id: dry_run
+    type: STRING
+    defaults: "false"
+    description: "Simulation: Wenn true, wird nichts an Kafka gesendet."
+
+  - id: kafka_topic
+    type: STRING
+    # WICHTIG: Habe das 's' entfernt (Singular), damit es zu ClickHouse passt!
+    defaults: "charging_stations"
+    description: "Kafka Topic"
+
+  - id: om_token
+    type: STRING
+    defaults: "eyJraWQiOiJHYjM4OWEtOWY3Ni1nZGpzLWE5MmotMDI0MmJrOTQzNTYiLCJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcGVuLW1ldGFkYXRhLm9yZyIsInN1YiI6ImluZ2VzdGlvbi1ib3QiLCJyb2xlcyI6WyJJbmdlc3Rpb25Cb3RSb2xlIl0sImVtYWlsIjoiaW5nZXN0aW9uLWJvdEBvcGVuLW1ldGFkYXRhLm9yZyIsImlzQm90Ijp0cnVlLCJ0b2tlblR5cGUiOiJCT1QiLCJ1c2VybmFtZSI6ImluZ2VzdGlvbi1ib3QiLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJpbmdlc3Rpb24tYm90IiwiaWF0IjoxNzY3ODg2NjcyLCJleHAiOm51bGx9.MaYwOC_ejegxMb3cflbA-DB38lTQk8U5VJwcFuDRadpRd_ONdCSWoD0nv7eJfdTBxGZI61GwRGf2YwF2wz_ZRXpvXsf8-SRb3rA1P1jmV8gLPY4KPepoYz8b5dn4qp0wL6bUsJtEKDS--TQbDMg9fwiY83x51LLFrMbGkaTyEG5YGNidULHNY7K3osEJDDa_x5vaCUMqwbUFxZMrPjESc6E9q74Iwvxr0yiYYARDmYAHMpxvVQNknUqiRisGRw8MwblyDr8lF_7Gt5RrOMPgNNMHbKrg6di3kOts9K8qcPwabBNT4iI8zixL4VCNWlDaQpEOhuARPIrwTqEZ0yxEJQ"
+    description: "OpenMetadata Token"
+
+tasks:
+  - id: charging_stations_import
+    type: io.kestra.plugin.scripts.shell.Commands
+    taskRunner:
+      type: io.kestra.plugin.scripts.runner.docker.Docker
+      image: solar-importer:v1
+      pullPolicy: NEVER
+      networkMode: redpanda-interop
+    env:
+      KAFKA_BROKER: "redpanda-0:9092"
+      KAFKA_TOPIC: "{{ inputs.kafka_topic }}"
+      PYTHONUNBUFFERED: "1"
+      CITIES: "{{ inputs.cities | join(',') }}"
+      # Variablen für das Import-Skript
+      DRY_RUN: "{{ inputs.dry_run }}"
+      MIN_POWER: "{{ inputs.min_power }}"
+      LIMIT: "{{ inputs.limit }}"
+    commands:
+      - python3 /app/scripts/import_charging_stations.py
+
+  - id: openmetadata_tasks
+    type: io.kestra.plugin.core.flow.If
+    condition: "{{ inputs.om_token is not null and inputs.om_token != '' }}"
+    then:
+      - id: index_metadata_charging
+        type: io.kestra.plugin.scripts.shell.Commands
+        taskRunner:
+          type: io.kestra.plugin.scripts.runner.docker.Docker
+          image: solar-importer:v1
+          pullPolicy: NEVER
+          networkMode: redpanda-interop
+        env:
+          OPENMETADATA_HOST: "datamesh.mni.thm.de:8585"
+          OPENMETADATA_TOKEN: "{{ inputs.om_token }}"
+          KAFKA_TOPIC: "{{ inputs.kafka_topic }}"
+          
+          # VARIABLEN FÜR DAS UNIVERSELLE SKRIPT 
+          DATA_TITLE: "Ladesäulen Register (Hessen)"
+          DATA_DESCRIPTION: "Offizielle Daten der Bundesnetzagentur. Automatisch importiert am {{ now() | date('dd.MM.yyyy') }}."
+          SOURCE_URL: "https://www.bundesnetzagentur.de"
+          SERVICE_NAME: "redpanda"
+          
+        commands:
+          # Führt jetzt das universelle Skript aus, das die Variablen oben nutzt
+          - python3 /app/scripts/index_metadata.py
+
+triggers:
+  - id: monthly_charging_import
+    type: io.kestra.plugin.core.trigger.Schedule
+    cron: "0 9 1 * *"
+    disabled: true

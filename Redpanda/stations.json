@@ -1,0 +1,5257 @@
+{
+  "10004": {
+    "name": "UFS TW Ems",
+    "lat": "54.165071",
+    "lon": "6.346049"
+  },
+  "10007": {
+    "name": "UFS Deutsche Bucht",
+    "lat": "54.179583",
+    "lon": "7.458717"
+  },
+  "10015": {
+    "name": "Helgoland",
+    "lat": "54.174971",
+    "lon": "7.891995"
+  },
+  "10020": {
+    "name": "List auf Sylt",
+    "lat": "55.010989",
+    "lon": "8.412531"
+  },
+  "10022": {
+    "name": "Leck",
+    "lat": "54.790294",
+    "lon": "8.951446"
+  },
+  "10028": {
+    "name": "Sankt Peter-Ording",
+    "lat": "54.327907",
+    "lon": "8.603056"
+  },
+  "10031": {
+    "name": "Flensburg (Schäferhaus)",
+    "lat": "54.773679",
+    "lon": "9.375294"
+  },
+  "10033": {
+    "name": "Glücksburg-Meierwik",
+    "lat": "54.827332",
+    "lon": "9.505784"
+  },
+  "10035": {
+    "name": "Schleswig",
+    "lat": "54.527539",
+    "lon": "9.548666"
+  },
+  "10037": {
+    "name": "Schleswig-Jagel",
+    "lat": "54.456985",
+    "lon": "9.520317"
+  },
+  "10038": {
+    "name": "Hohn",
+    "lat": "54.316169",
+    "lon": "9.538516"
+  },
+  "10042": {
+    "name": "Schönhagen (Ostseebad)",
+    "lat": "54.640986",
+    "lon": "10.02377"
+  },
+  "10044": {
+    "name": "Leuchtturm Kiel",
+    "lat": "54.499614",
+    "lon": "10.273687"
+  },
+  "10046": {
+    "name": "Kiel-Holtenau",
+    "lat": "54.377582",
+    "lon": "10.142375"
+  },
+  "10055": {
+    "name": "Fehmarn",
+    "lat": "54.528292",
+    "lon": "11.060556"
+  },
+  "10067": {
+    "name": "Marienleuchte",
+    "lat": "54.493692",
+    "lon": "11.241076"
+  },
+  "10091": {
+    "name": "Arkona",
+    "lat": "54.679109",
+    "lon": "13.434416"
+  },
+  "10093": {
+    "name": "Putbus",
+    "lat": "54.364277",
+    "lon": "13.477079"
+  },
+  "10097": {
+    "name": "Greifswalder Oie",
+    "lat": "54.24367",
+    "lon": "13.91044"
+  },
+  "10113": {
+    "name": "Norderney",
+    "lat": "53.712304",
+    "lon": "7.151923"
+  },
+  "10124": {
+    "name": "Leuchtturm Alte Weser",
+    "lat": "53.86333",
+    "lon": "8.1275"
+  },
+  "10126": {
+    "name": "Wittmundhafen",
+    "lat": "53.544444",
+    "lon": "7.6625"
+  },
+  "10129": {
+    "name": "Bremerhaven",
+    "lat": "53.53321",
+    "lon": "8.576089"
+  },
+  "10130": {
+    "name": "Elpersbüttel",
+    "lat": "54.069146",
+    "lon": "9.010547"
+  },
+  "10131": {
+    "name": "Cuxhaven",
+    "lat": "53.871236",
+    "lon": "8.705766"
+  },
+  "10136": {
+    "name": "Nordholz-Wanhöden",
+    "lat": "53.764714",
+    "lon": "8.658362"
+  },
+  "10137": {
+    "name": "Amda23s",
+    "lat": "53.649138",
+    "lon": "10.110373"
+  },
+  "10138": {
+    "name": "Amda33s",
+    "lat": "53.6491",
+    "lon": "10.1103"
+  },
+  "10139": {
+    "name": "Bremervörde",
+    "lat": "53.445118",
+    "lon": "9.13903"
+  },
+  "10142": {
+    "name": "Itzehoe",
+    "lat": "53.989731",
+    "lon": "9.569692"
+  },
+  "10146": {
+    "name": "Quickborn",
+    "lat": "53.733089",
+    "lon": "9.87757"
+  },
+  "10147": {
+    "name": "Hamburg-Fuhlsbüttel",
+    "lat": "53.633172",
+    "lon": "9.988102"
+  },
+  "10150": {
+    "name": "Dörnick",
+    "lat": "54.165444",
+    "lon": "10.351887"
+  },
+  "10152": {
+    "name": "Pelzerhaken",
+    "lat": "54.08933",
+    "lon": "10.877341"
+  },
+  "10156": {
+    "name": "Lübeck-Blankensee",
+    "lat": "53.802512",
+    "lon": "10.698941"
+  },
+  "10161": {
+    "name": "Boltenhagen",
+    "lat": "54.002724",
+    "lon": "11.19082"
+  },
+  "10162": {
+    "name": "Schwerin",
+    "lat": "53.642425",
+    "lon": "11.387095"
+  },
+  "10168": {
+    "name": "Goldberg",
+    "lat": "53.605834",
+    "lon": "12.103404"
+  },
+  "10170": {
+    "name": "Rostock-Warnemünde",
+    "lat": "54.180279",
+    "lon": "12.080806"
+  },
+  "10172": {
+    "name": "Laage-Kronskamp",
+    "lat": "53.915595",
+    "lon": "12.279013"
+  },
+  "10180": {
+    "name": "Barth",
+    "lat": "54.340527",
+    "lon": "12.710848"
+  },
+  "10184": {
+    "name": "Greifswald",
+    "lat": "54.096704",
+    "lon": "13.405565"
+  },
+  "10193": {
+    "name": "Ueckermünde",
+    "lat": "53.744455",
+    "lon": "14.069809"
+  },
+  "10200": {
+    "name": "Emden",
+    "lat": "53.388122",
+    "lon": "7.228716"
+  },
+  "10210": {
+    "name": "Friesoythe-Altenoythe",
+    "lat": "53.064301",
+    "lon": "7.901969"
+  },
+  "10224": {
+    "name": "Bremen",
+    "lat": "53.04507",
+    "lon": "8.798084"
+  },
+  "10235": {
+    "name": "Soltau",
+    "lat": "52.960408",
+    "lon": "9.793049"
+  },
+  "10238": {
+    "name": "Bergen",
+    "lat": "52.815233",
+    "lon": "9.924809"
+  },
+  "10246": {
+    "name": "Faßberg",
+    "lat": "52.915651",
+    "lon": "10.188503"
+  },
+  "10249": {
+    "name": "Boizenburg",
+    "lat": "53.391093",
+    "lon": "10.68781"
+  },
+  "10253": {
+    "name": "Lüchow",
+    "lat": "52.972379",
+    "lon": "11.137371"
+  },
+  "10261": {
+    "name": "Seehausen",
+    "lat": "52.891079",
+    "lon": "11.729661"
+  },
+  "10264": {
+    "name": "Marnitz",
+    "lat": "53.32209",
+    "lon": "11.932382"
+  },
+  "10267": {
+    "name": "Kyritz",
+    "lat": "52.936248",
+    "lon": "12.409335"
+  },
+  "10268": {
+    "name": "Waren (Müritz)",
+    "lat": "53.519622",
+    "lon": "12.665404"
+  },
+  "10271": {
+    "name": "Neuruppin-Alt Ruppin",
+    "lat": "52.943711",
+    "lon": "12.851826"
+  },
+  "10281": {
+    "name": "Trollenhagen",
+    "lat": "53.599793",
+    "lon": "13.303907"
+  },
+  "10282": {
+    "name": "Feldberg/Mecklenburg",
+    "lat": "53.317622",
+    "lon": "13.417485"
+  },
+  "10289": {
+    "name": "Grünow",
+    "lat": "53.315357",
+    "lon": "13.933856"
+  },
+  "10291": {
+    "name": "Angermünde",
+    "lat": "53.031558",
+    "lon": "13.99082"
+  },
+  "10303": {
+    "name": "Lingen-Baccum",
+    "lat": "52.512631",
+    "lon": "7.413109"
+  },
+  "10304": {
+    "name": "Meppen",
+    "lat": "52.715468",
+    "lon": "7.317616"
+  },
+  "10309": {
+    "name": "Ahaus",
+    "lat": "52.0813",
+    "lon": "6.940893"
+  },
+  "10312": {
+    "name": "Belm",
+    "lat": "52.317043",
+    "lon": "8.16943"
+  },
+  "10315": {
+    "name": "Münster/Osnabrück",
+    "lat": "52.134375",
+    "lon": "7.696859"
+  },
+  "10321": {
+    "name": "Diepholz",
+    "lat": "52.588112",
+    "lon": "8.342405"
+  },
+  "10325": {
+    "name": "Salzuflen, Bad",
+    "lat": "52.104207",
+    "lon": "8.752053"
+  },
+  "10334": {
+    "name": "Wunstorf",
+    "lat": "52.462608",
+    "lon": "9.424454"
+  },
+  "10335": {
+    "name": "Bückeburg",
+    "lat": "52.281691",
+    "lon": "9.08895"
+  },
+  "10338": {
+    "name": "Hannover",
+    "lat": "52.464428",
+    "lon": "9.677906"
+  },
+  "10343": {
+    "name": "Celle",
+    "lat": "52.59591",
+    "lon": "10.029585"
+  },
+  "10348": {
+    "name": "Braunschweig",
+    "lat": "52.291469",
+    "lon": "10.446448"
+  },
+  "10356": {
+    "name": "Ummendorf",
+    "lat": "52.160107",
+    "lon": "11.17586"
+  },
+  "10359": {
+    "name": "Gardelegen",
+    "lat": "52.512889",
+    "lon": "11.394174"
+  },
+  "10361": {
+    "name": "Magdeburg",
+    "lat": "52.102896",
+    "lon": "11.582674"
+  },
+  "10365": {
+    "name": "Genthin",
+    "lat": "52.387511",
+    "lon": "12.160174"
+  },
+  "10368": {
+    "name": "Wiesenburg",
+    "lat": "52.120644",
+    "lon": "12.458559"
+  },
+  "10372": {
+    "name": "Amda34s",
+    "lat": "52.377358",
+    "lon": "13.051897"
+  },
+  "10376": {
+    "name": "Baruth",
+    "lat": "52.061303",
+    "lon": "13.499731"
+  },
+  "10379": {
+    "name": "Potsdam",
+    "lat": "52.381247",
+    "lon": "13.06223"
+  },
+  "10381": {
+    "name": "Berlin-Dahlem (FU)",
+    "lat": "52.453711",
+    "lon": "13.301731"
+  },
+  "10384": {
+    "name": "Berlin-Tempelhof",
+    "lat": "52.467551",
+    "lon": "13.401981"
+  },
+  "10385": {
+    "name": "Berlin Brandenburg",
+    "lat": "52.380702",
+    "lon": "13.530576"
+  },
+  "10389": {
+    "name": "Berlin-Alexanderplatz",
+    "lat": "52.519805",
+    "lon": "13.405737"
+  },
+  "10393": {
+    "name": "Lindenberg",
+    "lat": "52.208489",
+    "lon": "14.118032"
+  },
+  "10396": {
+    "name": "Manschnow",
+    "lat": "52.546778",
+    "lon": "14.54525"
+  },
+  "10399": {
+    "name": "Falkenberg (Grenzschichtmessfeld)",
+    "lat": "52.16554",
+    "lon": "14.122356"
+  },
+  "10400": {
+    "name": "Düsseldorf",
+    "lat": "51.295968",
+    "lon": "6.768626"
+  },
+  "10410": {
+    "name": "Essen-Bredeney",
+    "lat": "51.404085",
+    "lon": "6.967741"
+  },
+  "10418": {
+    "name": "Lüdenscheid",
+    "lat": "51.245158",
+    "lon": "7.642497"
+  },
+  "10424": {
+    "name": "Werl",
+    "lat": "51.576347",
+    "lon": "7.887922"
+  },
+  "10427": {
+    "name": "Kahler Asten",
+    "lat": "51.180254",
+    "lon": "8.489068"
+  },
+  "10430": {
+    "name": "Lippspringe, Bad",
+    "lat": "51.785416",
+    "lon": "8.838795"
+  },
+  "10433": {
+    "name": "Lügde-Paenbruch",
+    "lat": "51.866393",
+    "lon": "9.271007"
+  },
+  "10435": {
+    "name": "Warburg",
+    "lat": "51.50392",
+    "lon": "9.111774"
+  },
+  "10439": {
+    "name": "Fritzlar/Eder",
+    "lat": "51.119006",
+    "lon": "9.279894"
+  },
+  "10441": {
+    "name": "Schauenburg-Elgershausen",
+    "lat": "51.283452",
+    "lon": "9.358959"
+  },
+  "10442": {
+    "name": "Alfeld",
+    "lat": "51.964331",
+    "lon": "9.80717"
+  },
+  "10444": {
+    "name": "Göttingen",
+    "lat": "51.500248",
+    "lon": "9.950659"
+  },
+  "10449": {
+    "name": "Leinefelde",
+    "lat": "51.393197",
+    "lon": "10.312349"
+  },
+  "10452": {
+    "name": "Braunlage",
+    "lat": "51.723383",
+    "lon": "10.602109"
+  },
+  "10453": {
+    "name": "Brocken",
+    "lat": "51.798615",
+    "lon": "10.61828"
+  },
+  "10454": {
+    "name": "Wernigerode",
+    "lat": "51.84544",
+    "lon": "10.768627"
+  },
+  "10458": {
+    "name": "Harzgerode",
+    "lat": "51.651967",
+    "lon": "11.136645"
+  },
+  "10460": {
+    "name": "Artern",
+    "lat": "51.374433",
+    "lon": "11.29196"
+  },
+  "10469": {
+    "name": "Leipzig/Halle",
+    "lat": "51.434711",
+    "lon": "12.239585"
+  },
+  "10471": {
+    "name": "Leipzig-Holzhausen",
+    "lat": "51.31509",
+    "lon": "12.446226"
+  },
+  "10474": {
+    "name": "Wittenberg",
+    "lat": "51.889124",
+    "lon": "12.644598"
+  },
+  "10476": {
+    "name": "Holzdorf-Bernsdorf",
+    "lat": "51.765737",
+    "lon": "13.166608"
+  },
+  "10480": {
+    "name": "Oschatz",
+    "lat": "51.29597",
+    "lon": "13.092827"
+  },
+  "10488": {
+    "name": "Dresden-Klotzsche",
+    "lat": "51.127797",
+    "lon": "13.754251"
+  },
+  "10490": {
+    "name": "Doberlug-Kirchhain",
+    "lat": "51.645071",
+    "lon": "13.574714"
+  },
+  "10495": {
+    "name": "Hoyerswerda",
+    "lat": "51.449238",
+    "lon": "14.25327"
+  },
+  "10496": {
+    "name": "Cottbus",
+    "lat": "51.775938",
+    "lon": "14.316799"
+  },
+  "10499": {
+    "name": "Görlitz",
+    "lat": "51.162129",
+    "lon": "14.950606"
+  },
+  "10500": {
+    "name": "Geilenkirchen-Neutevern",
+    "lat": "50.959253",
+    "lon": "6.039191"
+  },
+  "10502": {
+    "name": "Nörvenich-Niederbolheim",
+    "lat": "50.829354",
+    "lon": "6.660063"
+  },
+  "10505": {
+    "name": "Aachen-Orsbach",
+    "lat": "50.798281",
+    "lon": "6.02439"
+  },
+  "10506": {
+    "name": "Nürburg-Barweiler",
+    "lat": "50.360174",
+    "lon": "6.869659"
+  },
+  "10513": {
+    "name": "Köln/Bonn",
+    "lat": "50.864547",
+    "lon": "7.157524"
+  },
+  "10519": {
+    "name": "Königswinter-Heiderhof",
+    "lat": "50.729285",
+    "lon": "7.204024"
+  },
+  "10520": {
+    "name": "Andernach",
+    "lat": "50.423665",
+    "lon": "7.420171"
+  },
+  "10526": {
+    "name": "Marienberg, Bad",
+    "lat": "50.662061",
+    "lon": "7.960264"
+  },
+  "10532": {
+    "name": "Gießen/Wettenberg",
+    "lat": "50.601715",
+    "lon": "8.643898"
+  },
+  "10534": {
+    "name": "Hoherodskopf/Vogelsberg",
+    "lat": "50.508396",
+    "lon": "9.224634"
+  },
+  "10537": {
+    "name": "Neu-Ulrichstein",
+    "lat": "50.751337",
+    "lon": "9.022428"
+  },
+  "10540": {
+    "name": "Eisenach",
+    "lat": "51.000736",
+    "lon": "10.36211"
+  },
+  "10542": {
+    "name": "Hersfeld, Bad",
+    "lat": "50.851957",
+    "lon": "9.737694"
+  },
+  "10544": {
+    "name": "Wasserkuppe",
+    "lat": "50.497265",
+    "lon": "9.942732"
+  },
+  "10548": {
+    "name": "Meiningen",
+    "lat": "50.561131",
+    "lon": "10.377137"
+  },
+  "10552": {
+    "name": "Schmücke",
+    "lat": "50.654518",
+    "lon": "10.769601"
+  },
+  "10554": {
+    "name": "Erfurt-Weimar",
+    "lat": "50.982681",
+    "lon": "10.961292"
+  },
+  "10557": {
+    "name": "Neuhaus am Rennweg",
+    "lat": "50.500253",
+    "lon": "11.13446"
+  },
+  "10564": {
+    "name": "Schleiz",
+    "lat": "50.567882",
+    "lon": "11.80412"
+  },
+  "10565": {
+    "name": "Osterfeld",
+    "lat": "51.08716",
+    "lon": "11.929265"
+  },
+  "10567": {
+    "name": "Gera-Leumnitz",
+    "lat": "50.881208",
+    "lon": "12.128885"
+  },
+  "10569": {
+    "name": "Plauen",
+    "lat": "50.481832",
+    "lon": "12.130043"
+  },
+  "10574": {
+    "name": "Carlsfeld",
+    "lat": "50.431251",
+    "lon": "12.611421"
+  },
+  "10577": {
+    "name": "Chemnitz",
+    "lat": "50.791284",
+    "lon": "12.871975"
+  },
+  "10578": {
+    "name": "Fichtelberg",
+    "lat": "50.428295",
+    "lon": "12.953583"
+  },
+  "10579": {
+    "name": "Marienberg",
+    "lat": "50.651055",
+    "lon": "13.146876"
+  },
+  "10582": {
+    "name": "Zinnwald-Georgenfeld",
+    "lat": "50.731347",
+    "lon": "13.751612"
+  },
+  "10591": {
+    "name": "Lichtenhain-Mittelndorf",
+    "lat": "50.938325",
+    "lon": "14.20938"
+  },
+  "10609": {
+    "name": "Trier-Petrisberg",
+    "lat": "49.747891",
+    "lon": "6.658305"
+  },
+  "10613": {
+    "name": "Büchel-Alflen",
+    "lat": "50.174545",
+    "lon": "7.05952"
+  },
+  "10615": {
+    "name": "Deuselbach",
+    "lat": "49.761881",
+    "lon": "7.054245"
+  },
+  "10616": {
+    "name": "Hahn",
+    "lat": "49.946281",
+    "lon": "7.264495"
+  },
+  "10618": {
+    "name": "Idar-Oberstein",
+    "lat": "49.692695",
+    "lon": "7.326328"
+  },
+  "10628": {
+    "name": "Geisenheim",
+    "lat": "49.985894",
+    "lon": "7.95482"
+  },
+  "10635": {
+    "name": "Kleiner Feldberg/Taunus",
+    "lat": "50.221797",
+    "lon": "8.446883"
+  },
+  "10637": {
+    "name": "Frankfurt/Main",
+    "lat": "50.025911",
+    "lon": "8.521294"
+  },
+  "10641": {
+    "name": "Offenbach-Wetterpark",
+    "lat": "50.08995",
+    "lon": "8.786165"
+  },
+  "10646": {
+    "name": "Neuhütten/Spessart",
+    "lat": "50.008293",
+    "lon": "9.423765"
+  },
+  "10647": {
+    "name": "Offenbach/Main (QS-Station-Zentrale)",
+    "lat": "50.102944",
+    "lon": "8.746744"
+  },
+  "10648": {
+    "name": "Michelstadt-Vielbrunn",
+    "lat": "49.717686",
+    "lon": "9.099716"
+  },
+  "10649": {
+    "name": "Amda32s",
+    "lat": "50.103417",
+    "lon": "8.747034"
+  },
+  "10655": {
+    "name": "Würzburg",
+    "lat": "49.770378",
+    "lon": "9.957627"
+  },
+  "10658": {
+    "name": "Kissingen, Bad",
+    "lat": "50.223991",
+    "lon": "10.079245"
+  },
+  "10671": {
+    "name": "Lautertal-Oberlauter",
+    "lat": "50.306639",
+    "lon": "10.967938"
+  },
+  "10675": {
+    "name": "Bamberg",
+    "lat": "49.874252",
+    "lon": "10.920558"
+  },
+  "10685": {
+    "name": "Hof",
+    "lat": "50.312257",
+    "lon": "11.876039"
+  },
+  "10686": {
+    "name": "Wunsiedel-Schönbrunn",
+    "lat": "50.031507",
+    "lon": "11.974501"
+  },
+  "10688": {
+    "name": "Weiden",
+    "lat": "49.666221",
+    "lon": "12.184448"
+  },
+  "10704": {
+    "name": "Berus",
+    "lat": "49.264058",
+    "lon": "6.686776"
+  },
+  "10706": {
+    "name": "Tholey",
+    "lat": "49.473721",
+    "lon": "7.038522"
+  },
+  "10708": {
+    "name": "Saarbrücken-Ensheim",
+    "lat": "49.212782",
+    "lon": "7.107653"
+  },
+  "10724": {
+    "name": "Weinbiet",
+    "lat": "49.375801",
+    "lon": "8.121233"
+  },
+  "10729": {
+    "name": "Mannheim",
+    "lat": "49.506251",
+    "lon": "8.558439"
+  },
+  "10731": {
+    "name": "Rheinstetten",
+    "lat": "48.972627",
+    "lon": "8.330081"
+  },
+  "10733": {
+    "name": "Waibstadt",
+    "lat": "49.294262",
+    "lon": "8.905286"
+  },
+  "10736": {
+    "name": "Mühlacker",
+    "lat": "48.972073",
+    "lon": "8.873462"
+  },
+  "10738": {
+    "name": "Stuttgart-Echterdingen",
+    "lat": "48.688265",
+    "lon": "9.223548"
+  },
+  "10739": {
+    "name": "Stuttgart (Schnarrenberg)",
+    "lat": "48.828085",
+    "lon": "9.200028"
+  },
+  "10742": {
+    "name": "Öhringen",
+    "lat": "49.207016",
+    "lon": "9.517582"
+  },
+  "10743": {
+    "name": "Niederstetten",
+    "lat": "49.389529",
+    "lon": "9.966633"
+  },
+  "10747": {
+    "name": "Kaisersbach-Cronhütte",
+    "lat": "48.917038",
+    "lon": "9.687101"
+  },
+  "10756": {
+    "name": "Feuchtwangen-Heilbronn",
+    "lat": "49.162297",
+    "lon": "10.366126"
+  },
+  "10761": {
+    "name": "Weißenburg-Emetzheim",
+    "lat": "49.01153",
+    "lon": "10.930837"
+  },
+  "10763": {
+    "name": "Nürnberg",
+    "lat": "49.503031",
+    "lon": "11.054923"
+  },
+  "10765": {
+    "name": "Roth",
+    "lat": "49.216232",
+    "lon": "11.103514"
+  },
+  "10771": {
+    "name": "Kümmersbruck",
+    "lat": "49.428348",
+    "lon": "11.90159"
+  },
+  "10776": {
+    "name": "Regensburg",
+    "lat": "49.042482",
+    "lon": "12.101943"
+  },
+  "10777": {
+    "name": "Gelbelsee",
+    "lat": "48.948116",
+    "lon": "11.428929"
+  },
+  "10782": {
+    "name": "Waldmünchen",
+    "lat": "49.390952",
+    "lon": "12.683802"
+  },
+  "10788": {
+    "name": "Straubing",
+    "lat": "48.827504",
+    "lon": "12.559695"
+  },
+  "10791": {
+    "name": "Großer Arber",
+    "lat": "49.112887",
+    "lon": "13.133791"
+  },
+  "10796": {
+    "name": "Zwiesel",
+    "lat": "49.028013",
+    "lon": "13.238509"
+  },
+  "10803": {
+    "name": "Freiburg",
+    "lat": "48.023242",
+    "lon": "7.834292"
+  },
+  "10805": {
+    "name": "Lahr",
+    "lat": "48.364742",
+    "lon": "7.827986"
+  },
+  "10815": {
+    "name": "Freudenstadt",
+    "lat": "48.453828",
+    "lon": "8.408952"
+  },
+  "10818": {
+    "name": "Klippeneck",
+    "lat": "48.105397",
+    "lon": "8.754788"
+  },
+  "10827": {
+    "name": "Meßstetten-Appental",
+    "lat": "48.169353",
+    "lon": "8.943265"
+  },
+  "10836": {
+    "name": "Stötten",
+    "lat": "48.665587",
+    "lon": "9.864791"
+  },
+  "10837": {
+    "name": "Laupheim",
+    "lat": "48.217539",
+    "lon": "9.909736"
+  },
+  "10840": {
+    "name": "Ulm-Mähringen",
+    "lat": "48.441768",
+    "lon": "9.921613"
+  },
+  "10850": {
+    "name": "Harburg",
+    "lat": "48.791834",
+    "lon": "10.706234"
+  },
+  "10852": {
+    "name": "Augsburg",
+    "lat": "48.425292",
+    "lon": "10.941681"
+  },
+  "10853": {
+    "name": "Neuburg an der Donau",
+    "lat": "48.708492",
+    "lon": "11.214669"
+  },
+  "10856": {
+    "name": "Lechfeld",
+    "lat": "48.184868",
+    "lon": "10.850695"
+  },
+  "10860": {
+    "name": "Ingolstadt-Manching",
+    "lat": "48.711147",
+    "lon": "11.536252"
+  },
+  "10861": {
+    "name": "Amda35s",
+    "lat": "48.244352",
+    "lon": "11.552536"
+  },
+  "10863": {
+    "name": "Weihenstephan-Dürnast",
+    "lat": "48.402404",
+    "lon": "11.694552"
+  },
+  "10865": {
+    "name": "München-Stadt",
+    "lat": "48.163202",
+    "lon": "11.542893"
+  },
+  "10870": {
+    "name": "München-Flughafen",
+    "lat": "48.347741",
+    "lon": "11.813385"
+  },
+  "10872": {
+    "name": "Gottfrieding",
+    "lat": "48.659461",
+    "lon": "12.538816"
+  },
+  "10875": {
+    "name": "Mühldorf",
+    "lat": "48.278982",
+    "lon": "12.502407"
+  },
+  "10895": {
+    "name": "Fürstenzell",
+    "lat": "48.545114",
+    "lon": "13.353159"
+  },
+  "10908": {
+    "name": "Feldberg/Schwarzwald",
+    "lat": "47.874842",
+    "lon": "8.003793"
+  },
+  "10929": {
+    "name": "Konstanz",
+    "lat": "47.695219",
+    "lon": "9.130698"
+  },
+  "10945": {
+    "name": "Leutkirch-Herlazhofen",
+    "lat": "47.795529",
+    "lon": "10.032457"
+  },
+  "10946": {
+    "name": "Kempten",
+    "lat": "47.723263",
+    "lon": "10.334786"
+  },
+  "10948": {
+    "name": "Oberstdorf",
+    "lat": "47.398429",
+    "lon": "10.275881"
+  },
+  "10954": {
+    "name": "Altenstadt",
+    "lat": "47.834163",
+    "lon": "10.866744"
+  },
+  "10961": {
+    "name": "Zugspitze",
+    "lat": "47.421037",
+    "lon": "10.984761"
+  },
+  "10962": {
+    "name": "Hohenpeißenberg",
+    "lat": "47.800869",
+    "lon": "11.010819"
+  },
+  "10963": {
+    "name": "Garmisch-Partenkirchen",
+    "lat": "47.482989",
+    "lon": "11.062126"
+  },
+  "10966": {
+    "name": "Schneefernerhaus",
+    "lat": "47.416543",
+    "lon": "10.979479"
+  },
+  "10970": {
+    "name": "Bichl",
+    "lat": "47.714715",
+    "lon": "11.416682"
+  },
+  "10982": {
+    "name": "Chieming",
+    "lat": "47.884257",
+    "lon": "12.540368"
+  },
+  "A002": {
+    "name": "Helgoland-Düne",
+    "lat": "54.185992",
+    "lon": "7.911932"
+  },
+  "A051": {
+    "name": "Weesby",
+    "lat": "54.837286",
+    "lon": "9.148066"
+  },
+  "A112": {
+    "name": "Wrixum/Föhr",
+    "lat": "54.692781",
+    "lon": "8.527128"
+  },
+  "A116": {
+    "name": "Föhr",
+    "lat": "54.68312",
+    "lon": "8.472051"
+  },
+  "A138": {
+    "name": "Bordelum",
+    "lat": "54.632756",
+    "lon": "8.936989"
+  },
+  "A159": {
+    "name": "Eggebek",
+    "lat": "54.62823",
+    "lon": "9.364924"
+  },
+  "A160": {
+    "name": "Flensburg (Schäferhaus)",
+    "lat": "54.773679",
+    "lon": "9.375294"
+  },
+  "A173": {
+    "name": "Satrup",
+    "lat": "54.685407",
+    "lon": "9.6261"
+  },
+  "A201": {
+    "name": "Hallig Hooge",
+    "lat": "54.574167",
+    "lon": "8.513315"
+  },
+  "A216": {
+    "name": "Strucklahnungshörn",
+    "lat": "54.496485",
+    "lon": "8.806926"
+  },
+  "A226": {
+    "name": "Hattstedt",
+    "lat": "54.526755",
+    "lon": "9.042461"
+  },
+  "A345": {
+    "name": "Groß Wittensee",
+    "lat": "54.403194",
+    "lon": "9.765426"
+  },
+  "A351": {
+    "name": "Erfde",
+    "lat": "54.299212",
+    "lon": "9.316185"
+  },
+  "A397": {
+    "name": "Großenbrode",
+    "lat": "54.372582",
+    "lon": "11.082818"
+  },
+  "A411": {
+    "name": "Krempel",
+    "lat": "54.323692",
+    "lon": "9.024711"
+  },
+  "A443": {
+    "name": "Ostenfeld (Rendsburg)",
+    "lat": "54.319385",
+    "lon": "9.80512"
+  },
+  "A473": {
+    "name": "Köhn",
+    "lat": "54.344412",
+    "lon": "10.458082"
+  },
+  "A480": {
+    "name": "Putlos",
+    "lat": "54.31598",
+    "lon": "10.800223"
+  },
+  "A481": {
+    "name": "Hohwacht",
+    "lat": "54.319391",
+    "lon": "10.673193"
+  },
+  "A482": {
+    "name": "Hasenkrug-Hardebek",
+    "lat": "54.00385",
+    "lon": "9.855495"
+  },
+  "A483": {
+    "name": "Wacken",
+    "lat": "54.0246",
+    "lon": "9.387966"
+  },
+  "A505": {
+    "name": "Büsum",
+    "lat": "54.119305",
+    "lon": "8.858369"
+  },
+  "A536": {
+    "name": "Haale",
+    "lat": "54.169524",
+    "lon": "9.555852"
+  },
+  "A653": {
+    "name": "Padenstedt (Pony-Park)",
+    "lat": "54.018844",
+    "lon": "9.925507"
+  },
+  "A699": {
+    "name": "Travemünde",
+    "lat": "53.961947",
+    "lon": "10.889158"
+  },
+  "A752": {
+    "name": "Weddelbrook",
+    "lat": "53.900473",
+    "lon": "9.830793"
+  },
+  "A762": {
+    "name": "Wittenborn",
+    "lat": "53.922412",
+    "lon": "10.226738"
+  },
+  "A791": {
+    "name": "Schwartau,Bad -Groß Parin",
+    "lat": "53.938481",
+    "lon": "10.698267"
+  },
+  "A940": {
+    "name": "Sprenge",
+    "lat": "53.68927",
+    "lon": "10.365697"
+  },
+  "A981": {
+    "name": "Grambek",
+    "lat": "53.573115",
+    "lon": "10.679686"
+  },
+  "B006": {
+    "name": "Hiddensee-Vitte",
+    "lat": "54.574966",
+    "lon": "13.104408"
+  },
+  "B040": {
+    "name": "Darßer Ort (SWN)",
+    "lat": "54.473768",
+    "lon": "12.501388"
+  },
+  "B085": {
+    "name": "Sagard-Vorwerk",
+    "lat": "54.515937",
+    "lon": "13.530523"
+  },
+  "B158": {
+    "name": "Steinhagen-Negast",
+    "lat": "54.248381",
+    "lon": "13.041864"
+  },
+  "B203": {
+    "name": "Bastorf-Kägsdorf (SWN)",
+    "lat": "54.132325",
+    "lon": "11.671881"
+  },
+  "B258": {
+    "name": "Tribsees",
+    "lat": "54.065427",
+    "lon": "12.765454"
+  },
+  "B308": {
+    "name": "Kirchdorf/Poel",
+    "lat": "53.999513",
+    "lon": "11.434142"
+  },
+  "B320": {
+    "name": "Biendorf-Gersdorf",
+    "lat": "54.080548",
+    "lon": "11.74249"
+  },
+  "B334": {
+    "name": "Sanitz-Groß Lüsewitz",
+    "lat": "54.071364",
+    "lon": "12.323764"
+  },
+  "B365": {
+    "name": "Süderholz-Neuendorf",
+    "lat": "54.103401",
+    "lon": "13.15331"
+  },
+  "B382": {
+    "name": "Karlshagen",
+    "lat": "54.104896",
+    "lon": "13.823906"
+  },
+  "B471": {
+    "name": "Kruckow-Schmarsow",
+    "lat": "53.875346",
+    "lon": "13.210143"
+  },
+  "B482": {
+    "name": "Groß Kiesow-Schlagtow",
+    "lat": "54.011742",
+    "lon": "13.499925"
+  },
+  "B488": {
+    "name": "Anklam",
+    "lat": "53.840867",
+    "lon": "13.685443"
+  },
+  "B508": {
+    "name": "Carlow",
+    "lat": "53.757531",
+    "lon": "10.928814"
+  },
+  "B511": {
+    "name": "Grevesmühlen",
+    "lat": "53.831209",
+    "lon": "11.171278"
+  },
+  "B525": {
+    "name": "Ventschow",
+    "lat": "53.778422",
+    "lon": "11.55948"
+  },
+  "B531": {
+    "name": "Baumgarten",
+    "lat": "53.814876",
+    "lon": "11.88179"
+  },
+  "B544": {
+    "name": "Gülzow-Prüzen-Parum",
+    "lat": "53.811914",
+    "lon": "12.113984"
+  },
+  "B547": {
+    "name": "Gülzow-Prüzen",
+    "lat": "53.817775",
+    "lon": "12.064513"
+  },
+  "B556": {
+    "name": "Teterow",
+    "lat": "53.761035",
+    "lon": "12.557375"
+  },
+  "B565": {
+    "name": "Borrentin-Wolkwitz",
+    "lat": "53.808029",
+    "lon": "12.960697"
+  },
+  "B587": {
+    "name": "Ducherow-Rathebur",
+    "lat": "53.740917",
+    "lon": "13.790639"
+  },
+  "B629": {
+    "name": "Friedrichsruhe-Goldenbow",
+    "lat": "53.538852",
+    "lon": "11.7607"
+  },
+  "B650": {
+    "name": "Sukow-Levitzow",
+    "lat": "53.828116",
+    "lon": "12.593625"
+  },
+  "B670": {
+    "name": "Friedland",
+    "lat": "53.655726",
+    "lon": "13.536919"
+  },
+  "B687": {
+    "name": "Rothemühl",
+    "lat": "53.595357",
+    "lon": "13.812134"
+  },
+  "B710": {
+    "name": "Wittendörp-Dodow",
+    "lat": "53.503518",
+    "lon": "11.00137"
+  },
+  "B728": {
+    "name": "Neustadt-Glewe-Friedrichsmoor",
+    "lat": "53.457104",
+    "lon": "11.568696"
+  },
+  "B747": {
+    "name": "Plau am See",
+    "lat": "53.458432",
+    "lon": "12.241705"
+  },
+  "B766": {
+    "name": "Penzlin-Groß Lukow",
+    "lat": "53.525457",
+    "lon": "13.016084"
+  },
+  "B818": {
+    "name": "Redefin",
+    "lat": "53.346894",
+    "lon": "11.199183"
+  },
+  "B853": {
+    "name": "Rechlin",
+    "lat": "53.331116",
+    "lon": "12.714875"
+  },
+  "B898": {
+    "name": "Grambow-Schwennenz",
+    "lat": "53.383698",
+    "lon": "14.372801"
+  },
+  "B923": {
+    "name": "Grabow (Kläranlage Fahlenkamp)",
+    "lat": "53.265179",
+    "lon": "11.504215"
+  },
+  "B926": {
+    "name": "Malk Göhren",
+    "lat": "53.214097",
+    "lon": "11.368558"
+  },
+  "B951": {
+    "name": "Lärz-Krümmel",
+    "lat": "53.268105",
+    "lon": "12.722084"
+  },
+  "B995": {
+    "name": "Mellenthin-Dewichow",
+    "lat": "53.949655",
+    "lon": "13.97418"
+  },
+  "C208": {
+    "name": "Hamburg-Neustadt",
+    "lat": "53.552971",
+    "lon": "9.978286"
+  },
+  "C720": {
+    "name": "Hamburg-Neuwiedenthal",
+    "lat": "53.477585",
+    "lon": "9.895741"
+  },
+  "E006": {
+    "name": "Borkum-Süderstraße",
+    "lat": "53.578832",
+    "lon": "6.670344"
+  },
+  "E008": {
+    "name": "Borkum-Flugplatz",
+    "lat": "53.598385",
+    "lon": "6.702417"
+  },
+  "E025": {
+    "name": "Dornum",
+    "lat": "53.645983",
+    "lon": "7.430158"
+  },
+  "E031": {
+    "name": "Spiekeroog (SWN)",
+    "lat": "53.767428",
+    "lon": "7.672129"
+  },
+  "E043": {
+    "name": "Wangerland-Hooksiel",
+    "lat": "53.641065",
+    "lon": "8.08086"
+  },
+  "E067": {
+    "name": "Langen-Holßel, Kreis Cuxhaven",
+    "lat": "53.695623",
+    "lon": "8.629108"
+  },
+  "E078": {
+    "name": "Steinau, Kr. Cuxhaven",
+    "lat": "53.694592",
+    "lon": "8.873533"
+  },
+  "E082": {
+    "name": "Freiburg/Elbe",
+    "lat": "53.827696",
+    "lon": "9.249276"
+  },
+  "E087": {
+    "name": "Lamstedt",
+    "lat": "53.636892",
+    "lon": "9.097868"
+  },
+  "E091": {
+    "name": "Drochtersen",
+    "lat": "53.711752",
+    "lon": "9.379085"
+  },
+  "E095": {
+    "name": "Ruthenstrom",
+    "lat": "53.71965",
+    "lon": "9.419156"
+  },
+  "E099": {
+    "name": "Mittelnkirchen-Hohenfelde",
+    "lat": "53.553423",
+    "lon": "9.609747"
+  },
+  "E103": {
+    "name": "Norden-Leybuchtpolder",
+    "lat": "53.503894",
+    "lon": "7.121735"
+  },
+  "E145": {
+    "name": "Butjadingen-Inte",
+    "lat": "53.492638",
+    "lon": "8.376849"
+  },
+  "E158": {
+    "name": "Beverstedt",
+    "lat": "53.425244",
+    "lon": "8.804026"
+  },
+  "E188": {
+    "name": "Jork-Moorende",
+    "lat": "53.508338",
+    "lon": "9.737635"
+  },
+  "E200": {
+    "name": "Bockhorn-Grabstede",
+    "lat": "53.367048",
+    "lon": "7.967927"
+  },
+  "E207": {
+    "name": "Dollart-Kanalpolder",
+    "lat": "53.228884",
+    "lon": "7.219053"
+  },
+  "E212": {
+    "name": "Moormerland-Neermoor",
+    "lat": "53.310978",
+    "lon": "7.432904"
+  },
+  "E229": {
+    "name": "Westerstede",
+    "lat": "53.250375",
+    "lon": "7.934993"
+  },
+  "E232": {
+    "name": "Ovelgönne",
+    "lat": "53.381903",
+    "lon": "8.449286"
+  },
+  "E234": {
+    "name": "Rastede",
+    "lat": "53.242759",
+    "lon": "8.223641"
+  },
+  "E235": {
+    "name": "Brake",
+    "lat": "53.35176",
+    "lon": "8.496943"
+  },
+  "E254": {
+    "name": "Worpswede-Hüttenbusch",
+    "lat": "53.275827",
+    "lon": "8.985687"
+  },
+  "E273": {
+    "name": "Rosengarten-Klecken",
+    "lat": "53.3629",
+    "lon": "9.943511"
+  },
+  "E277": {
+    "name": "Königsmoor",
+    "lat": "53.227933",
+    "lon": "9.652723"
+  },
+  "E297": {
+    "name": "Bleckede-Walmsburg",
+    "lat": "53.240142",
+    "lon": "10.852162"
+  },
+  "E298": {
+    "name": "Wendisch Evern",
+    "lat": "53.213878",
+    "lon": "10.470375"
+  },
+  "E335": {
+    "name": "Hude/Oldenburg",
+    "lat": "53.122799",
+    "lon": "8.42046"
+  },
+  "E342": {
+    "name": "Ottersberg-Otterstedt",
+    "lat": "53.140299",
+    "lon": "9.151689"
+  },
+  "E355": {
+    "name": "Rotenburg (Wümme)",
+    "lat": "53.128923",
+    "lon": "9.339795"
+  },
+  "E364": {
+    "name": "Heeslingen-Wiersdorf",
+    "lat": "53.298853",
+    "lon": "9.335125"
+  },
+  "E374": {
+    "name": "Rehlingen-Ehlbeck",
+    "lat": "53.085885",
+    "lon": "10.161061"
+  },
+  "E387": {
+    "name": "Zernien",
+    "lat": "53.070402",
+    "lon": "10.883125"
+  },
+  "E402": {
+    "name": "Dörpen",
+    "lat": "52.954199",
+    "lon": "7.319679"
+  },
+  "E426": {
+    "name": "Großenkneten",
+    "lat": "52.933593",
+    "lon": "8.237018"
+  },
+  "E438": {
+    "name": "Bassum",
+    "lat": "52.86303",
+    "lon": "8.698853"
+  },
+  "E445": {
+    "name": "Schwarme",
+    "lat": "52.908108",
+    "lon": "9.045152"
+  },
+  "E451": {
+    "name": "Verden-Dauelsen",
+    "lat": "52.958617",
+    "lon": "9.226861"
+  },
+  "E475": {
+    "name": "Uelzen",
+    "lat": "52.941435",
+    "lon": "10.528857"
+  },
+  "E501": {
+    "name": "Twist-Hebelermeer",
+    "lat": "52.743015",
+    "lon": "7.07542"
+  },
+  "E513": {
+    "name": "Groß Berßen",
+    "lat": "52.755286",
+    "lon": "7.481492"
+  },
+  "E545": {
+    "name": "Barnstorf",
+    "lat": "52.696508",
+    "lon": "8.486956"
+  },
+  "E571": {
+    "name": "Fallingbostel, Bad",
+    "lat": "52.856783",
+    "lon": "9.67563"
+  },
+  "E586": {
+    "name": "Scharnhorst-Marwede",
+    "lat": "52.736346",
+    "lon": "10.344026"
+  },
+  "E590": {
+    "name": "Börßum-Achim",
+    "lat": "52.06879",
+    "lon": "10.624451"
+  },
+  "E601": {
+    "name": "Ringe-Großringe",
+    "lat": "52.598302",
+    "lon": "6.944915"
+  },
+  "E622": {
+    "name": "Fürstenau",
+    "lat": "52.515965",
+    "lon": "7.676221"
+  },
+  "E626": {
+    "name": "Alfhausen",
+    "lat": "52.485322",
+    "lon": "7.912544"
+  },
+  "E631": {
+    "name": "Dinklage",
+    "lat": "52.67462",
+    "lon": "8.113724"
+  },
+  "E651": {
+    "name": "Kirchdorf, Kreis Diepholz",
+    "lat": "52.600709",
+    "lon": "8.852192"
+  },
+  "E659": {
+    "name": "Rehburg-Loccum",
+    "lat": "52.439577",
+    "lon": "9.133518"
+  },
+  "E662": {
+    "name": "Essel",
+    "lat": "52.679692",
+    "lon": "9.652352"
+  },
+  "E667": {
+    "name": "Neustadt am Rübenberge",
+    "lat": "52.499967",
+    "lon": "9.494071"
+  },
+  "E672": {
+    "name": "Wedemark-Elze",
+    "lat": "52.588296",
+    "lon": "9.73857"
+  },
+  "E673": {
+    "name": "Celle (Stadt)",
+    "lat": "52.614642",
+    "lon": "10.072598"
+  },
+  "E688": {
+    "name": "Uetze",
+    "lat": "52.458765",
+    "lon": "10.188826"
+  },
+  "E691": {
+    "name": "Wittingen-Vorhop",
+    "lat": "52.642294",
+    "lon": "10.662762"
+  },
+  "E704": {
+    "name": "Bentheim, Bad",
+    "lat": "52.301792",
+    "lon": "7.130106"
+  },
+  "E711": {
+    "name": "Ostercappeln-Schwagstorf",
+    "lat": "52.365638",
+    "lon": "8.201145"
+  },
+  "E718": {
+    "name": "Essen-Brockhausen, Bad",
+    "lat": "52.334533",
+    "lon": "8.38774"
+  },
+  "E727": {
+    "name": "Rothenfelde, Bad",
+    "lat": "52.103808",
+    "lon": "8.180881"
+  },
+  "E732": {
+    "name": "Hameln",
+    "lat": "52.084784",
+    "lon": "9.389576"
+  },
+  "E738": {
+    "name": "Rinteln-Volksen",
+    "lat": "52.13836",
+    "lon": "9.111947"
+  },
+  "E739": {
+    "name": "Hameln-Hastenbeck",
+    "lat": "52.081826",
+    "lon": "9.407661"
+  },
+  "E744": {
+    "name": "Barsinghausen-Hohenbostel",
+    "lat": "52.319851",
+    "lon": "9.42997"
+  },
+  "E749": {
+    "name": "Hannover-Nordstadt",
+    "lat": "52.383857",
+    "lon": "9.730775"
+  },
+  "E755": {
+    "name": "Hannover-Herrenhausen",
+    "lat": "52.396469",
+    "lon": "9.662863"
+  },
+  "E756": {
+    "name": "Hannover-Kirchrode",
+    "lat": "52.367103",
+    "lon": "9.819005"
+  },
+  "E762": {
+    "name": "Lehrte-Sievershausen",
+    "lat": "52.366648",
+    "lon": "10.126468"
+  },
+  "E764": {
+    "name": "Springe",
+    "lat": "52.205394",
+    "lon": "9.566817"
+  },
+  "E792": {
+    "name": "Süpplingen",
+    "lat": "52.231737",
+    "lon": "10.920002"
+  },
+  "E798": {
+    "name": "Helmstedt-Emmerstedt",
+    "lat": "52.246687",
+    "lon": "10.959207"
+  },
+  "E799": {
+    "name": "Cremlingen-Destedt",
+    "lat": "52.244852",
+    "lon": "10.718235"
+  },
+  "E805": {
+    "name": "Ottenstein",
+    "lat": "51.94726",
+    "lon": "9.399808"
+  },
+  "E818": {
+    "name": "Bevern, Kr. Holzminden",
+    "lat": "51.85294",
+    "lon": "9.495274"
+  },
+  "E835": {
+    "name": "Eimen-Vorwohle",
+    "lat": "51.887336",
+    "lon": "9.727987"
+  },
+  "E839": {
+    "name": "Moringen-Lutterbeck",
+    "lat": "51.72086",
+    "lon": "9.835126"
+  },
+  "E857": {
+    "name": "Northeim-Stöckheim",
+    "lat": "51.752086",
+    "lon": "9.94504"
+  },
+  "E858": {
+    "name": "Northeim-Imbshausen",
+    "lat": "51.763036",
+    "lon": "10.041607"
+  },
+  "E864": {
+    "name": "Seesen",
+    "lat": "51.903979",
+    "lon": "10.188488"
+  },
+  "E884": {
+    "name": "Langelsheim-Astfeld",
+    "lat": "51.926175",
+    "lon": "10.346131"
+  },
+  "E897": {
+    "name": "Harzburg, Bad",
+    "lat": "51.900249",
+    "lon": "10.569851"
+  },
+  "E902": {
+    "name": "Bodenfelde-Amelith",
+    "lat": "51.695724",
+    "lon": "9.513524"
+  },
+  "E931": {
+    "name": "Berka",
+    "lat": "51.684172",
+    "lon": "10.107803"
+  },
+  "E944": {
+    "name": "Herzberg",
+    "lat": "51.625476",
+    "lon": "10.369512"
+  },
+  "E950": {
+    "name": "Herzberg-Lonau",
+    "lat": "51.688976",
+    "lon": "10.357102"
+  },
+  "E955": {
+    "name": "Lauterberg,Bad-Bartolfelde",
+    "lat": "51.595667",
+    "lon": "10.462967"
+  },
+  "E970": {
+    "name": "Dransfeld-Ossenfeld",
+    "lat": "51.526295",
+    "lon": "9.797802"
+  },
+  "F020": {
+    "name": "Meyenburg",
+    "lat": "53.308318",
+    "lon": "12.293694"
+  },
+  "F050": {
+    "name": "Uckerland-Karlstein",
+    "lat": "53.427726",
+    "lon": "13.816671"
+  },
+  "F069": {
+    "name": "Hohenreinkendorf",
+    "lat": "53.225167",
+    "lon": "14.329961"
+  },
+  "F105": {
+    "name": "Lenzen/Elbe",
+    "lat": "53.100708",
+    "lon": "11.486414"
+  },
+  "F108": {
+    "name": "Karstädt/Prignitz",
+    "lat": "53.172426",
+    "lon": "11.749132"
+  },
+  "F125": {
+    "name": "Kuhbier",
+    "lat": "53.148574",
+    "lon": "12.085143"
+  },
+  "F143": {
+    "name": "Wittstock-Rote Mühle",
+    "lat": "53.186436",
+    "lon": "12.494939"
+  },
+  "F151": {
+    "name": "Stechlin-Menz",
+    "lat": "53.101974",
+    "lon": "13.042072"
+  },
+  "F172": {
+    "name": "Mittenwalde/Uckermark",
+    "lat": "53.184585",
+    "lon": "13.654515"
+  },
+  "F178": {
+    "name": "Neuruppin-Gühlen Glienicke",
+    "lat": "53.052808",
+    "lon": "12.756211"
+  },
+  "F191": {
+    "name": "Schwedt/Oder-Passow",
+    "lat": "53.141965",
+    "lon": "14.107435"
+  },
+  "F199": {
+    "name": "Berkholz-Meyenburg",
+    "lat": "53.044332",
+    "lon": "14.242298"
+  },
+  "F210": {
+    "name": "Perleberg",
+    "lat": "53.095176",
+    "lon": "11.860293"
+  },
+  "F263": {
+    "name": "Zehdenick",
+    "lat": "52.96635",
+    "lon": "13.326752"
+  },
+  "F265": {
+    "name": "Schorfheide-Groß Schönebeck",
+    "lat": "52.909373",
+    "lon": "13.537061"
+  },
+  "F280": {
+    "name": "Friedrichswalde",
+    "lat": "53.023826",
+    "lon": "13.708829"
+  },
+  "F305": {
+    "name": "Kleßen",
+    "lat": "52.739049",
+    "lon": "12.498366"
+  },
+  "F325": {
+    "name": "Kremmen-Groß Ziethen",
+    "lat": "52.727734",
+    "lon": "13.012113"
+  },
+  "F338": {
+    "name": "Marwitz (Wasserwerk)",
+    "lat": "52.657941",
+    "lon": "13.178961"
+  },
+  "F361": {
+    "name": "Heckelberg",
+    "lat": "52.746142",
+    "lon": "13.842702"
+  },
+  "F385": {
+    "name": "Wustrow",
+    "lat": "52.760573",
+    "lon": "14.217398"
+  },
+  "F419": {
+    "name": "Wusterwitz",
+    "lat": "52.361279",
+    "lon": "12.386733"
+  },
+  "F431": {
+    "name": "Berge",
+    "lat": "52.619829",
+    "lon": "12.786684"
+  },
+  "F448": {
+    "name": "Staaken",
+    "lat": "52.540408",
+    "lon": "13.124293"
+  },
+  "F451": {
+    "name": "Ahrensfelde",
+    "lat": "52.585015",
+    "lon": "13.563378"
+  },
+  "F470": {
+    "name": "Strausberg",
+    "lat": "52.588376",
+    "lon": "13.928872"
+  },
+  "F475": {
+    "name": "Müncheberg",
+    "lat": "52.517597",
+    "lon": "14.123225"
+  },
+  "F509": {
+    "name": "Wollin",
+    "lat": "52.281319",
+    "lon": "12.468119"
+  },
+  "F518": {
+    "name": "Brandenburg/Havel",
+    "lat": "52.422811",
+    "lon": "12.566729"
+  },
+  "F520": {
+    "name": "Groß Kreutz-Krielow",
+    "lat": "52.416907",
+    "lon": "12.800607"
+  },
+  "F545": {
+    "name": "Thyrow",
+    "lat": "52.253376",
+    "lon": "13.236146"
+  },
+  "F598": {
+    "name": "Pohlitz",
+    "lat": "52.183643",
+    "lon": "14.574787"
+  },
+  "F620": {
+    "name": "Brück-Gömnigk",
+    "lat": "52.169188",
+    "lon": "12.733336"
+  },
+  "F635": {
+    "name": "Felgentreu",
+    "lat": "52.099704",
+    "lon": "13.001635"
+  },
+  "F660": {
+    "name": "Münchehofe",
+    "lat": "52.148833",
+    "lon": "13.835873"
+  },
+  "F681": {
+    "name": "Neu Madlitz",
+    "lat": "52.365259",
+    "lon": "14.247393"
+  },
+  "F695": {
+    "name": "Coschen",
+    "lat": "52.019184",
+    "lon": "14.725442"
+  },
+  "F707": {
+    "name": "Langenlipsdorf",
+    "lat": "51.917335",
+    "lon": "13.087753"
+  },
+  "F736": {
+    "name": "Hohenbucko",
+    "lat": "51.764009",
+    "lon": "13.469979"
+  },
+  "F742": {
+    "name": "Lübben-Blumenfelde",
+    "lat": "51.926694",
+    "lon": "13.879715"
+  },
+  "F757": {
+    "name": "Lübbenau/Spreewald-Bischdorf",
+    "lat": "51.798153",
+    "lon": "13.971648"
+  },
+  "F770": {
+    "name": "Lieberose",
+    "lat": "51.986088",
+    "lon": "14.304403"
+  },
+  "F878": {
+    "name": "Spremberg-Graustein",
+    "lat": "51.571772",
+    "lon": "14.47636"
+  },
+  "F951": {
+    "name": "Schipkau-Klettwitz",
+    "lat": "51.555433",
+    "lon": "13.884528"
+  },
+  "G002": {
+    "name": "Berlin-Buch",
+    "lat": "52.630956",
+    "lon": "13.502135"
+  },
+  "G005": {
+    "name": "Berlin-Marzahn",
+    "lat": "52.544744",
+    "lon": "13.559789"
+  },
+  "H009": {
+    "name": "Westerkappeln",
+    "lat": "52.290208",
+    "lon": "7.868747"
+  },
+  "H012": {
+    "name": "Rahden-Kleinendorf",
+    "lat": "52.446122",
+    "lon": "8.590574"
+  },
+  "H027": {
+    "name": "Petershagen",
+    "lat": "52.3817",
+    "lon": "9.017551"
+  },
+  "H058": {
+    "name": "Steinfurt-Burgsteinfurt",
+    "lat": "52.117259",
+    "lon": "7.341055"
+  },
+  "H061": {
+    "name": "Hörstel-Riesenbeck",
+    "lat": "52.239575",
+    "lon": "7.64486"
+  },
+  "H081": {
+    "name": "Espelkamp-Isenstedt",
+    "lat": "52.345157",
+    "lon": "8.647666"
+  },
+  "H119": {
+    "name": "Coesfeld",
+    "lat": "51.96175",
+    "lon": "7.158484"
+  },
+  "H142": {
+    "name": "Lienen-Kattenvenne",
+    "lat": "52.121146",
+    "lon": "7.869893"
+  },
+  "H145": {
+    "name": "Ostbevern-Schirlheide",
+    "lat": "52.008733",
+    "lon": "7.851948"
+  },
+  "H170": {
+    "name": "Enger",
+    "lat": "52.150023",
+    "lon": "8.522574"
+  },
+  "H174": {
+    "name": "Bielefeld-Deppendorf",
+    "lat": "52.071449",
+    "lon": "8.456493"
+  },
+  "H203": {
+    "name": "Kleve",
+    "lat": "51.761242",
+    "lon": "6.095381"
+  },
+  "H212": {
+    "name": "Dahlem-Schmidtheim",
+    "lat": "50.411493",
+    "lon": "6.561503"
+  },
+  "H235": {
+    "name": "Reken",
+    "lat": "51.811752",
+    "lon": "7.090713"
+  },
+  "H247": {
+    "name": "Lüdinghausen-Brochtrup",
+    "lat": "51.766342",
+    "lon": "7.519387"
+  },
+  "H257": {
+    "name": "Drensteinfurt",
+    "lat": "51.758488",
+    "lon": "7.752784"
+  },
+  "H261": {
+    "name": "Harsewinkel",
+    "lat": "51.975316",
+    "lon": "8.209404"
+  },
+  "H265": {
+    "name": "Gütersloh/Ems",
+    "lat": "51.925818",
+    "lon": "8.311056"
+  },
+  "H281": {
+    "name": "Lage, Kreis Lippe-Hörste",
+    "lat": "51.944572",
+    "lon": "8.774854"
+  },
+  "H311": {
+    "name": "Xanten",
+    "lat": "51.696974",
+    "lon": "6.39741"
+  },
+  "H312": {
+    "name": "Xanten (Wasserwerk)",
+    "lat": "51.680167",
+    "lon": "6.434935"
+  },
+  "H330": {
+    "name": "Haltern (Wasserwerk)",
+    "lat": "51.734258",
+    "lon": "7.199836"
+  },
+  "H333": {
+    "name": "Olfen",
+    "lat": "51.706577",
+    "lon": "7.356366"
+  },
+  "H336": {
+    "name": "Gelsenkirchen-Buer",
+    "lat": "51.576234",
+    "lon": "7.065182"
+  },
+  "H361": {
+    "name": "Ennigerloh-Ostenfelde",
+    "lat": "51.841775",
+    "lon": "8.060717"
+  },
+  "H372": {
+    "name": "Delbrück",
+    "lat": "51.783521",
+    "lon": "8.565808"
+  },
+  "H376": {
+    "name": "Salzkotten",
+    "lat": "51.709756",
+    "lon": "8.579609"
+  },
+  "H377": {
+    "name": "Lippstadt-Bökenförde",
+    "lat": "51.633617",
+    "lon": "8.39445"
+  },
+  "H391": {
+    "name": "Brakel",
+    "lat": "51.704894",
+    "lon": "9.173804"
+  },
+  "H401": {
+    "name": "Geldern-Walbeck",
+    "lat": "51.494168",
+    "lon": "6.246343"
+  },
+  "H411": {
+    "name": "Borken in Westfalen",
+    "lat": "51.873046",
+    "lon": "6.886297"
+  },
+  "H412": {
+    "name": "Bocholt-Liedern (Wasserwerk)",
+    "lat": "51.8293",
+    "lon": "6.53651"
+  },
+  "H419": {
+    "name": "Duisburg-Baerl",
+    "lat": "51.508794",
+    "lon": "6.701773"
+  },
+  "H420": {
+    "name": "Dinslaken",
+    "lat": "51.576478",
+    "lon": "6.784929"
+  },
+  "H432": {
+    "name": "Bochum",
+    "lat": "51.502642",
+    "lon": "7.228914"
+  },
+  "H443": {
+    "name": "Waltrop-Abdinghof",
+    "lat": "51.596642",
+    "lon": "7.404843"
+  },
+  "H460": {
+    "name": "Sassendorf, Bad-Beusingsen",
+    "lat": "51.543948",
+    "lon": "8.180815"
+  },
+  "H475": {
+    "name": "Rüthen",
+    "lat": "51.496642",
+    "lon": "8.434191"
+  },
+  "H477": {
+    "name": "Wünnenberg-Eilern",
+    "lat": "51.542692",
+    "lon": "8.778413"
+  },
+  "H492": {
+    "name": "Borgentreich",
+    "lat": "51.567659",
+    "lon": "9.232377"
+  },
+  "H512": {
+    "name": "Nettetal-Hülst",
+    "lat": "51.299239",
+    "lon": "6.20126"
+  },
+  "H522": {
+    "name": "Tönisvorst",
+    "lat": "51.289722",
+    "lon": "6.443651"
+  },
+  "H542": {
+    "name": "Gevelsberg-Oberbröking",
+    "lat": "51.332887",
+    "lon": "7.341174"
+  },
+  "H543": {
+    "name": "Breckerfeld-Wengeberg",
+    "lat": "51.248783",
+    "lon": "7.467166"
+  },
+  "H547": {
+    "name": "Wuppertal-Buchenhofen",
+    "lat": "51.225598",
+    "lon": "7.105176"
+  },
+  "H548": {
+    "name": "Wuppertal",
+    "lat": "51.25306",
+    "lon": "7.215665"
+  },
+  "H568": {
+    "name": "Neuenrade-Blintrop",
+    "lat": "51.291467",
+    "lon": "7.85303"
+  },
+  "H572": {
+    "name": "Arnsberg-Neheim",
+    "lat": "51.46332",
+    "lon": "7.97797"
+  },
+  "H573": {
+    "name": "Arnsberg-Müschede",
+    "lat": "51.408855",
+    "lon": "8.009389"
+  },
+  "H579": {
+    "name": "Eslohe",
+    "lat": "51.25399",
+    "lon": "8.15653"
+  },
+  "H581": {
+    "name": "Warstein-Hirschberg",
+    "lat": "51.431882",
+    "lon": "8.266476"
+  },
+  "H590": {
+    "name": "Haaren",
+    "lat": "51.557178",
+    "lon": "8.701925"
+  },
+  "H591": {
+    "name": "Brilon-Thülen",
+    "lat": "51.413998",
+    "lon": "8.649983"
+  },
+  "H612": {
+    "name": "Reichshof-Eckenhagen",
+    "lat": "50.990623",
+    "lon": "7.695754"
+  },
+  "H635": {
+    "name": "Dormagen-Zons",
+    "lat": "51.115746",
+    "lon": "6.850995"
+  },
+  "H641": {
+    "name": "Solingen-Hohenscheid",
+    "lat": "51.14004",
+    "lon": "7.092982"
+  },
+  "H655": {
+    "name": "Wipperfürth-Gardeweg",
+    "lat": "51.163672",
+    "lon": "7.423388"
+  },
+  "H658": {
+    "name": "Meinerzhagen-Redlendorf",
+    "lat": "51.089851",
+    "lon": "7.628924"
+  },
+  "H669": {
+    "name": "Attendorn-Neulisternohl",
+    "lat": "51.114277",
+    "lon": "7.880705"
+  },
+  "H678": {
+    "name": "Lennestadt-Theten",
+    "lat": "51.133253",
+    "lon": "8.034831"
+  },
+  "H681": {
+    "name": "Schmallenberg-Sellinghausen",
+    "lat": "51.212731",
+    "lon": "8.267235"
+  },
+  "H695": {
+    "name": "Medebach-Berge",
+    "lat": "51.168307",
+    "lon": "8.712524"
+  },
+  "H718": {
+    "name": "Jülich (Kläranlage)",
+    "lat": "50.931629",
+    "lon": "6.343119"
+  },
+  "H721": {
+    "name": "Bedburg-Weiler Hohenholz",
+    "lat": "51.014895",
+    "lon": "6.517327"
+  },
+  "H755": {
+    "name": "Overath-Böke",
+    "lat": "50.965511",
+    "lon": "7.275302"
+  },
+  "H768": {
+    "name": "Mönchengladbach-Hilderath",
+    "lat": "51.131263",
+    "lon": "6.360819"
+  },
+  "H791": {
+    "name": "Berleburg, Bad-Arfeld",
+    "lat": "51.014835",
+    "lon": "8.431837"
+  },
+  "H795": {
+    "name": "Berleburg, Bad-Stünzel",
+    "lat": "50.983713",
+    "lon": "8.368331"
+  },
+  "H827": {
+    "name": "Nideggen-Schmidt",
+    "lat": "50.674261",
+    "lon": "6.423998"
+  },
+  "H862": {
+    "name": "Neunkirchen-Seelscheid-Krawinkel",
+    "lat": "50.844636",
+    "lon": "7.371973"
+  },
+  "H884": {
+    "name": "Birkelbach",
+    "lat": "51.011235",
+    "lon": "8.273261"
+  },
+  "H889": {
+    "name": "Burbach-Würgendorf",
+    "lat": "50.755647",
+    "lon": "8.125655"
+  },
+  "H908": {
+    "name": "Monschau-Kalterherberg",
+    "lat": "50.520211",
+    "lon": "6.208439"
+  },
+  "H932": {
+    "name": "Weilerswist-Lommersum",
+    "lat": "50.711886",
+    "lon": "6.790489"
+  },
+  "H981": {
+    "name": "Kall-Sistig",
+    "lat": "50.50141",
+    "lon": "6.526408"
+  },
+  "J702": {
+    "name": "Perl-Nennig",
+    "lat": "49.535353",
+    "lon": "6.378874"
+  },
+  "J709": {
+    "name": "Merzig",
+    "lat": "49.45662",
+    "lon": "6.626599"
+  },
+  "J728": {
+    "name": "Weiskirchen/Saar",
+    "lat": "49.553365",
+    "lon": "6.811951"
+  },
+  "J731": {
+    "name": "Nohfelden-Gonnesweiler",
+    "lat": "49.556788",
+    "lon": "7.071557"
+  },
+  "J812": {
+    "name": "Schmelz-Hüttersdorf",
+    "lat": "49.414918",
+    "lon": "6.836007"
+  },
+  "J815": {
+    "name": "Neunkirchen-Wellesweiler",
+    "lat": "49.343983",
+    "lon": "7.229738"
+  },
+  "J846": {
+    "name": "Homburg/Saar",
+    "lat": "49.327792",
+    "lon": "7.353336"
+  },
+  "J908": {
+    "name": "Saarbrücken-Burbach",
+    "lat": "49.240557",
+    "lon": "6.935134"
+  },
+  "K017": {
+    "name": "Hilgenroth",
+    "lat": "50.737016",
+    "lon": "7.652531"
+  },
+  "K038": {
+    "name": "Neuenahr, Bad-Ahrweiler",
+    "lat": "50.534561",
+    "lon": "7.085337"
+  },
+  "K057": {
+    "name": "Hümmerich",
+    "lat": "50.565053",
+    "lon": "7.484345"
+  },
+  "K158": {
+    "name": "Neuwied-Feldkirchen-Hüllenberg",
+    "lat": "50.451705",
+    "lon": "7.405769"
+  },
+  "K210": {
+    "name": "Schneifelforsthaus",
+    "lat": "50.296848",
+    "lon": "6.419387"
+  },
+  "K212": {
+    "name": "Roth bei Prüm",
+    "lat": "50.304649",
+    "lon": "6.386273"
+  },
+  "K219": {
+    "name": "Lissendorf",
+    "lat": "50.310518",
+    "lon": "6.623578"
+  },
+  "K230": {
+    "name": "Rodder",
+    "lat": "50.396548",
+    "lon": "6.856804"
+  },
+  "K282": {
+    "name": "Montabaur",
+    "lat": "50.438264",
+    "lon": "7.806121"
+  },
+  "K295": {
+    "name": "Holzheim bei Diez",
+    "lat": "50.357409",
+    "lon": "8.048498"
+  },
+  "K300": {
+    "name": "Winterspelt",
+    "lat": "50.228181",
+    "lon": "6.207111"
+  },
+  "K308": {
+    "name": "Lauperath-Scheidchen",
+    "lat": "50.084966",
+    "lon": "6.316098"
+  },
+  "K310": {
+    "name": "Prüm-Watzerath",
+    "lat": "50.180668",
+    "lon": "6.350901"
+  },
+  "K318": {
+    "name": "Densborn",
+    "lat": "50.12201",
+    "lon": "6.599032"
+  },
+  "K354": {
+    "name": "Kail",
+    "lat": "50.184128",
+    "lon": "7.240018"
+  },
+  "K380": {
+    "name": "Oberbachheim",
+    "lat": "50.248002",
+    "lon": "7.745633"
+  },
+  "K419": {
+    "name": "Olsdorf",
+    "lat": "49.944479",
+    "lon": "6.38211"
+  },
+  "K440": {
+    "name": "Manderscheid-Sonnenhof",
+    "lat": "50.101542",
+    "lon": "6.800909"
+  },
+  "K446": {
+    "name": "Wittlich",
+    "lat": "49.961731",
+    "lon": "6.928746"
+  },
+  "K463": {
+    "name": "Blankenrath",
+    "lat": "50.037229",
+    "lon": "7.307861"
+  },
+  "K471": {
+    "name": "Simmern-Wahlbach",
+    "lat": "49.99959",
+    "lon": "7.59812"
+  },
+  "K509": {
+    "name": "Newel",
+    "lat": "49.813491",
+    "lon": "6.585668"
+  },
+  "K515": {
+    "name": "Zemmer (Forsthaus Mülchen)",
+    "lat": "49.870885",
+    "lon": "6.707361"
+  },
+  "K568": {
+    "name": "Kreuznach, Bad",
+    "lat": "49.850173",
+    "lon": "7.871018"
+  },
+  "K579": {
+    "name": "Ober-Olm/Bellem",
+    "lat": "49.952867",
+    "lon": "8.210699"
+  },
+  "K584": {
+    "name": "Mainz-Lerchenberg (ZDF)",
+    "lat": "49.965815",
+    "lon": "8.204851"
+  },
+  "K589": {
+    "name": "Hahnheim",
+    "lat": "49.86258",
+    "lon": "8.231085"
+  },
+  "K611": {
+    "name": "Trier-Zewen",
+    "lat": "49.732632",
+    "lon": "6.613147"
+  },
+  "K650": {
+    "name": "Kirn",
+    "lat": "49.789016",
+    "lon": "7.485275"
+  },
+  "K685": {
+    "name": "Alzey",
+    "lat": "49.7273",
+    "lon": "8.116356"
+  },
+  "K699": {
+    "name": "Worms",
+    "lat": "49.605078",
+    "lon": "8.365906"
+  },
+  "K706": {
+    "name": "Perl-Sinz-Renglischberg",
+    "lat": "49.521403",
+    "lon": "6.447635"
+  },
+  "K747": {
+    "name": "Henschtal",
+    "lat": "49.464808",
+    "lon": "7.411082"
+  },
+  "K761": {
+    "name": "Dörrmoschel-Felsbergerhof",
+    "lat": "49.601695",
+    "lon": "7.741331"
+  },
+  "K762": {
+    "name": "Ruppertsecken",
+    "lat": "49.646838",
+    "lon": "7.883741"
+  },
+  "K784": {
+    "name": "Grünstadt",
+    "lat": "49.566492",
+    "lon": "8.17797"
+  },
+  "K863": {
+    "name": "Kaiserslautern",
+    "lat": "49.426213",
+    "lon": "7.755714"
+  },
+  "K864": {
+    "name": "Sembach",
+    "lat": "49.50443",
+    "lon": "7.861829"
+  },
+  "K866": {
+    "name": "Trippstadt-Neuhof",
+    "lat": "49.354424",
+    "lon": "7.794751"
+  },
+  "K881": {
+    "name": "Dürkheim, Bad",
+    "lat": "49.471913",
+    "lon": "8.192896"
+  },
+  "K925": {
+    "name": "Pirmasens",
+    "lat": "49.191191",
+    "lon": "7.5879"
+  },
+  "K969": {
+    "name": "Rülzheim",
+    "lat": "49.16088",
+    "lon": "8.300934"
+  },
+  "K988": {
+    "name": "Bergzabern, Bad",
+    "lat": "49.107025",
+    "lon": "7.996749"
+  },
+  "L021": {
+    "name": "Trendelburg",
+    "lat": "51.577732",
+    "lon": "9.433693"
+  },
+  "L031": {
+    "name": "Wesertal-Lippoldsberg",
+    "lat": "51.61941",
+    "lon": "9.57491"
+  },
+  "L052": {
+    "name": "Diemelstadt-Rhoden",
+    "lat": "51.47426",
+    "lon": "9.003906"
+  },
+  "L071": {
+    "name": "Liebenau-Haueda",
+    "lat": "51.4882",
+    "lon": "9.249252"
+  },
+  "L101": {
+    "name": "Willingen/Hochsauerland",
+    "lat": "51.291529",
+    "lon": "8.598143"
+  },
+  "L113": {
+    "name": "Korbach-Rhena",
+    "lat": "51.288015",
+    "lon": "8.792783"
+  },
+  "L121": {
+    "name": "Twistetal-Mühlhausen",
+    "lat": "51.3344",
+    "lon": "8.913191"
+  },
+  "L125": {
+    "name": "Waldeck-Alraft",
+    "lat": "51.24267",
+    "lon": "8.971761"
+  },
+  "L130": {
+    "name": "Arolsen-Landau, Bad",
+    "lat": "51.343117",
+    "lon": "9.076333"
+  },
+  "L131": {
+    "name": "Arolsen-Volkhardinghausen, Bad",
+    "lat": "51.321891",
+    "lon": "9.055763"
+  },
+  "L171": {
+    "name": "Witzenhausen-Ziegenhagen",
+    "lat": "51.364548",
+    "lon": "9.749147"
+  },
+  "L201": {
+    "name": "Battenberg-Hof Karlsburg",
+    "lat": "51.066152",
+    "lon": "8.537474"
+  },
+  "L215": {
+    "name": "Frankenberg-Geismar",
+    "lat": "51.0806",
+    "lon": "8.8769"
+  },
+  "L217": {
+    "name": "Burgwald-Bottendorf",
+    "lat": "51.030568",
+    "lon": "8.814605"
+  },
+  "L222": {
+    "name": "Vöhl-Buchenberg",
+    "lat": "51.159796",
+    "lon": "8.873772"
+  },
+  "L245": {
+    "name": "Wabern-Hebel",
+    "lat": "51.067003",
+    "lon": "9.382119"
+  },
+  "L286": {
+    "name": "Sontra",
+    "lat": "51.060686",
+    "lon": "9.926618"
+  },
+  "L291": {
+    "name": "Eschwege",
+    "lat": "51.204132",
+    "lon": "10.013767"
+  },
+  "L292": {
+    "name": "Eschwege-Eltmannshausen",
+    "lat": "51.19452",
+    "lon": "9.988501"
+  },
+  "L299": {
+    "name": "Herleshausen-Archfeld",
+    "lat": "51.042484",
+    "lon": "10.14676"
+  },
+  "L300": {
+    "name": "Eschenburg-Eibelshausen",
+    "lat": "50.805287",
+    "lon": "8.338217"
+  },
+  "L312": {
+    "name": "Wetter/Hessen-Amönau",
+    "lat": "50.908663",
+    "lon": "8.692898"
+  },
+  "L319": {
+    "name": "Cölbe, Kr. Marburg-Biedenkopf",
+    "lat": "50.849234",
+    "lon": "8.774517"
+  },
+  "L340": {
+    "name": "Gilserberg-Moischeid",
+    "lat": "50.965565",
+    "lon": "9.050014"
+  },
+  "L355": {
+    "name": "Neukirchen-Hauptschwenda",
+    "lat": "50.89228",
+    "lon": "9.40498"
+  },
+  "L409": {
+    "name": "Driedorf",
+    "lat": "50.63159",
+    "lon": "8.181266"
+  },
+  "L442": {
+    "name": "Amöneburg-Rüdigheim",
+    "lat": "50.784041",
+    "lon": "8.954489"
+  },
+  "L463": {
+    "name": "Alsfeld",
+    "lat": "50.755683",
+    "lon": "9.258325"
+  },
+  "L464": {
+    "name": "Alsfeld-Eifa",
+    "lat": "50.744591",
+    "lon": "9.344972"
+  },
+  "L483": {
+    "name": "Haunetal-Wehrda",
+    "lat": "50.73837",
+    "lon": "9.660738"
+  },
+  "L505": {
+    "name": "Waldbrunn-Lahr",
+    "lat": "50.512141",
+    "lon": "8.132635"
+  },
+  "L511": {
+    "name": "Löhnberg-Obershausen",
+    "lat": "50.561656",
+    "lon": "8.238629"
+  },
+  "L521": {
+    "name": "Aßlar Klein-Altenstädten",
+    "lat": "50.579959",
+    "lon": "8.468468"
+  },
+  "L561": {
+    "name": "Lautertal-Hörgenau",
+    "lat": "50.580797",
+    "lon": "9.28574"
+  },
+  "L582": {
+    "name": "Petersberg-Marbach",
+    "lat": "50.617521",
+    "lon": "9.724971"
+  },
+  "L585": {
+    "name": "Fulda-Horas",
+    "lat": "50.566786",
+    "lon": "9.653221"
+  },
+  "L592": {
+    "name": "Tann/Rhön",
+    "lat": "50.639028",
+    "lon": "10.022846"
+  },
+  "L602": {
+    "name": "Runkel-Ennerich",
+    "lat": "50.393972",
+    "lon": "8.142276"
+  },
+  "L612": {
+    "name": "Weilmünster",
+    "lat": "50.428377",
+    "lon": "8.380557"
+  },
+  "L617": {
+    "name": "Camberg, Bad",
+    "lat": "50.286318",
+    "lon": "8.294862"
+  },
+  "L631": {
+    "name": "Münzenberg-Gambach",
+    "lat": "50.452232",
+    "lon": "8.731695"
+  },
+  "L635": {
+    "name": "Nauheim, Bad",
+    "lat": "50.357418",
+    "lon": "8.750564"
+  },
+  "L652": {
+    "name": "Gedern-Schönhausen",
+    "lat": "50.403352",
+    "lon": "9.207585"
+  },
+  "L678": {
+    "name": "Schlüchtern-Herolz",
+    "lat": "50.344656",
+    "lon": "9.55333"
+  },
+  "L685": {
+    "name": "Grebenstein",
+    "lat": "51.451068",
+    "lon": "9.413796"
+  },
+  "L714": {
+    "name": "Hohenstein-Breithardt",
+    "lat": "50.191809",
+    "lon": "8.08884"
+  },
+  "L722": {
+    "name": "Waldems-Reinborn",
+    "lat": "50.259603",
+    "lon": "8.360676"
+  },
+  "L732": {
+    "name": "Homburg, Bad (Filterwerk)",
+    "lat": "50.244571",
+    "lon": "8.572503"
+  },
+  "L744": {
+    "name": "Vilbel, Bad-Dortelweil",
+    "lat": "50.21349",
+    "lon": "8.74525"
+  },
+  "L751": {
+    "name": "Nidderau-Erbstadt",
+    "lat": "50.27406",
+    "lon": "8.86529"
+  },
+  "L771": {
+    "name": "Gründau-Breitenborn",
+    "lat": "50.266701",
+    "lon": "9.185383"
+  },
+  "L773": {
+    "name": "Wächtersbach",
+    "lat": "50.243548",
+    "lon": "9.289247"
+  },
+  "L781": {
+    "name": "Soden,Bad-Salmünster (Kläranlage)",
+    "lat": "50.268765",
+    "lon": "9.357955"
+  },
+  "L803": {
+    "name": "Rüdesheim-Presberg",
+    "lat": "50.05166",
+    "lon": "7.88755"
+  },
+  "L819": {
+    "name": "Wiesbaden-Biebrich",
+    "lat": "50.042119",
+    "lon": "8.233134"
+  },
+  "L821": {
+    "name": "Wiesbaden-Auringen",
+    "lat": "50.132052",
+    "lon": "8.316938"
+  },
+  "L829": {
+    "name": "Raunheim",
+    "lat": "50.005626",
+    "lon": "8.429069"
+  },
+  "L841": {
+    "name": "Frankfurt/Main-Westend",
+    "lat": "50.126877",
+    "lon": "8.669396"
+  },
+  "L850": {
+    "name": "Mühlheim/Main",
+    "lat": "50.129438",
+    "lon": "8.820886"
+  },
+  "L865": {
+    "name": "Groß-Gerau-Wallerstädten",
+    "lat": "49.905232",
+    "lon": "8.445949"
+  },
+  "L886": {
+    "name": "Darmstadt",
+    "lat": "49.880895",
+    "lon": "8.677906"
+  },
+  "L891": {
+    "name": "Rödermark-Ober-Roden",
+    "lat": "49.983205",
+    "lon": "8.839542"
+  },
+  "L892": {
+    "name": "Reinhardshagen-Vaake",
+    "lat": "51.484127",
+    "lon": "9.612059"
+  },
+  "L894": {
+    "name": "Schaafheim-Schlierbach",
+    "lat": "49.919503",
+    "lon": "8.967164"
+  },
+  "L926": {
+    "name": "Lautertal/Odenwald-Reichenbach",
+    "lat": "49.709003",
+    "lon": "8.690797"
+  },
+  "L930": {
+    "name": "Otzberg-Habitzheim",
+    "lat": "49.836621",
+    "lon": "8.880568"
+  },
+  "L947": {
+    "name": "Michelstadt",
+    "lat": "49.669151",
+    "lon": "9.008528"
+  },
+  "L979": {
+    "name": "Birkenau",
+    "lat": "49.568553",
+    "lon": "8.701319"
+  },
+  "L987": {
+    "name": "Oberzent-Beerfelden-Vogelherd",
+    "lat": "49.556099",
+    "lon": "8.966935"
+  },
+  "L988": {
+    "name": "Oberzent-Beerfelden",
+    "lat": "49.561729",
+    "lon": "8.967329"
+  },
+  "M031": {
+    "name": "Ellrich-Werna",
+    "lat": "51.583452",
+    "lon": "10.709031"
+  },
+  "M056": {
+    "name": "Reinholterode",
+    "lat": "51.424764",
+    "lon": "10.189764"
+  },
+  "M146": {
+    "name": "Helbedündorf-Keula",
+    "lat": "51.333985",
+    "lon": "10.528996"
+  },
+  "M161": {
+    "name": "Sondershausen",
+    "lat": "51.369118",
+    "lon": "10.88001"
+  },
+  "M225": {
+    "name": "Mühlhausen/Thüringen-Görmar",
+    "lat": "51.206117",
+    "lon": "10.497829"
+  },
+  "M259": {
+    "name": "Freienbessingen",
+    "lat": "51.23266",
+    "lon": "10.769355"
+  },
+  "M281": {
+    "name": "Etzleben",
+    "lat": "51.260977",
+    "lon": "11.175368"
+  },
+  "M299": {
+    "name": "Olbersleben",
+    "lat": "51.150665",
+    "lon": "11.332074"
+  },
+  "M301": {
+    "name": "Südeichsfeld-Wendehausen",
+    "lat": "51.159397",
+    "lon": "10.247286"
+  },
+  "M345": {
+    "name": "Gotha",
+    "lat": "50.965705",
+    "lon": "10.698824"
+  },
+  "M348": {
+    "name": "Dachwig",
+    "lat": "51.077772",
+    "lon": "10.861875"
+  },
+  "M357": {
+    "name": "Alperstedt",
+    "lat": "51.095024",
+    "lon": "11.047932"
+  },
+  "M405": {
+    "name": "Salzungen, Bad-Gräfen-Nitzendorf",
+    "lat": "50.842634",
+    "lon": "10.251814"
+  },
+  "M412": {
+    "name": "Hörselberg-Hainich-Behringen",
+    "lat": "51.022141",
+    "lon": "10.514781"
+  },
+  "M439": {
+    "name": "Berka, Bad (Flugplatz)",
+    "lat": "50.907455",
+    "lon": "11.266477"
+  },
+  "M448": {
+    "name": "Weimar-Schöndorf",
+    "lat": "51.01765",
+    "lon": "11.354409"
+  },
+  "M473": {
+    "name": "Crossen/Elster-Nickelsdorf",
+    "lat": "50.977077",
+    "lon": "12.004398"
+  },
+  "M480": {
+    "name": "Meuselwitz",
+    "lat": "51.045188",
+    "lon": "12.298856"
+  },
+  "M488": {
+    "name": "Starkenberg-Tegkwitz",
+    "lat": "50.977086",
+    "lon": "12.341909"
+  },
+  "M500": {
+    "name": "Ponitz",
+    "lat": "50.85443",
+    "lon": "12.421632"
+  },
+  "M520": {
+    "name": "Waltershausen",
+    "lat": "50.896285",
+    "lon": "10.54834"
+  },
+  "M552": {
+    "name": "Jena (Sternwarte)",
+    "lat": "50.925126",
+    "lon": "11.583023"
+  },
+  "M557": {
+    "name": "Bucha",
+    "lat": "50.870041",
+    "lon": "11.502161"
+  },
+  "M565": {
+    "name": "Bobeck",
+    "lat": "50.904081",
+    "lon": "11.798477"
+  },
+  "M620": {
+    "name": "Kleiner Inselsberg",
+    "lat": "50.845847",
+    "lon": "10.480262"
+  },
+  "M640": {
+    "name": "Drei Gleichen-Mühlberg",
+    "lat": "50.868082",
+    "lon": "10.821072"
+  },
+  "M651": {
+    "name": "Stadtilm-Dienstedt",
+    "lat": "50.801787",
+    "lon": "11.169196"
+  },
+  "M669": {
+    "name": "Uhlstädt-Kirchhasel-Niederkrossen",
+    "lat": "50.757711",
+    "lon": "11.517819"
+  },
+  "M691": {
+    "name": "Harth-Pöllnitz Neundorf",
+    "lat": "50.767557",
+    "lon": "11.980954"
+  },
+  "M700": {
+    "name": "Geisa",
+    "lat": "50.713334",
+    "lon": "9.953936"
+  },
+  "M732": {
+    "name": "Martinroda",
+    "lat": "50.733481",
+    "lon": "10.881516"
+  },
+  "M756": {
+    "name": "Schwarzburg",
+    "lat": "50.64406",
+    "lon": "11.193618"
+  },
+  "M765": {
+    "name": "Krölpa-Rockendorf",
+    "lat": "50.681954",
+    "lon": "11.515024"
+  },
+  "M772": {
+    "name": "Schmieritz-Weltwitz",
+    "lat": "50.728119",
+    "lon": "11.783769"
+  },
+  "M799": {
+    "name": "Langenwetzendorf-Göttendorf",
+    "lat": "50.661003",
+    "lon": "12.075583"
+  },
+  "M805": {
+    "name": "Birx/Rhön",
+    "lat": "50.53092",
+    "lon": "10.047947"
+  },
+  "M833": {
+    "name": "Ilmenau-Frauenwald",
+    "lat": "50.592106",
+    "lon": "10.857519"
+  },
+  "M834": {
+    "name": "Schleusingen",
+    "lat": "50.507059",
+    "lon": "10.76198"
+  },
+  "M846": {
+    "name": "Katzhütte",
+    "lat": "50.546722",
+    "lon": "11.031723"
+  },
+  "M909": {
+    "name": "Römhild-Sülzdorf",
+    "lat": "50.409851",
+    "lon": "10.490142"
+  },
+  "M927": {
+    "name": "Veilsdorf",
+    "lat": "50.41672",
+    "lon": "10.815607"
+  },
+  "M938": {
+    "name": "Frankenblick-Mengersgereuth-Hämmern",
+    "lat": "50.390367",
+    "lon": "11.132363"
+  },
+  "M945": {
+    "name": "Föritztal-Neuenbau",
+    "lat": "50.440958",
+    "lon": "11.240055"
+  },
+  "M965": {
+    "name": "Lobenstein, Bad",
+    "lat": "50.450456",
+    "lon": "11.63497"
+  },
+  "M978": {
+    "name": "Hirschberg",
+    "lat": "50.404029",
+    "lon": "11.819302"
+  },
+  "M998": {
+    "name": "Föritztal-Neuhaus-Schierschnitz",
+    "lat": "50.325038",
+    "lon": "11.239477"
+  },
+  "N104": {
+    "name": "Diesdorf",
+    "lat": "52.752218",
+    "lon": "10.88308"
+  },
+  "N158": {
+    "name": "Osterburg (Altmark)-Ballerstedt",
+    "lat": "52.732076",
+    "lon": "11.712319"
+  },
+  "N182": {
+    "name": "Hohenberg-Krusemark-Schwarzholz",
+    "lat": "52.747017",
+    "lon": "11.97918"
+  },
+  "N199": {
+    "name": "Schollene",
+    "lat": "52.662966",
+    "lon": "12.181243"
+  },
+  "N214": {
+    "name": "Köckte",
+    "lat": "52.523331",
+    "lon": "11.126104"
+  },
+  "N268": {
+    "name": "Tangerhütte-Grieben",
+    "lat": "52.423322",
+    "lon": "11.96596"
+  },
+  "N272": {
+    "name": "Demker",
+    "lat": "52.507485",
+    "lon": "11.855089"
+  },
+  "N305": {
+    "name": "Oebisfelde-Weferlingen-Bösdorf",
+    "lat": "52.415269",
+    "lon": "11.075762"
+  },
+  "N315": {
+    "name": "Westheide-Born",
+    "lat": "52.374468",
+    "lon": "11.465476"
+  },
+  "N345": {
+    "name": "Zielitz",
+    "lat": "52.299428",
+    "lon": "11.67331"
+  },
+  "N366": {
+    "name": "Burg-Blumenthal",
+    "lat": "52.324068",
+    "lon": "11.833933"
+  },
+  "N398": {
+    "name": "Möckern-Drewitz",
+    "lat": "52.217417",
+    "lon": "12.164088"
+  },
+  "N426": {
+    "name": "Weißenfels-Wengelsdorf",
+    "lat": "51.274324",
+    "lon": "12.051727"
+  },
+  "N435": {
+    "name": "Wanzleben-Börde / Klein Germersleben",
+    "lat": "52.01934",
+    "lon": "11.40593"
+  },
+  "N440": {
+    "name": "Hohe Börde-Schackensleben",
+    "lat": "52.197954",
+    "lon": "11.421824"
+  },
+  "N463": {
+    "name": "Königsborn",
+    "lat": "52.133061",
+    "lon": "11.775702"
+  },
+  "N500": {
+    "name": "Osterwieck-Rimbeck",
+    "lat": "51.999681",
+    "lon": "10.632689"
+  },
+  "N511": {
+    "name": "Sargstedt",
+    "lat": "51.937541",
+    "lon": "10.989739"
+  },
+  "N520": {
+    "name": "Huy-Pabstorf",
+    "lat": "52.030421",
+    "lon": "10.962603"
+  },
+  "N532": {
+    "name": "Hecklingen-Groß Börnecke",
+    "lat": "51.88055",
+    "lon": "11.464968"
+  },
+  "N543": {
+    "name": "Walternienburg-Ronney",
+    "lat": "51.961014",
+    "lon": "11.915903"
+  },
+  "N548": {
+    "name": "Bernburg/Saale (Nord)",
+    "lat": "51.821792",
+    "lon": "11.71098"
+  },
+  "N553": {
+    "name": "Badewitz bei Zerbst",
+    "lat": "52.022318",
+    "lon": "12.159693"
+  },
+  "N563": {
+    "name": "Düben",
+    "lat": "51.926477",
+    "lon": "12.385221"
+  },
+  "N566": {
+    "name": "Jeßnitz",
+    "lat": "51.681752",
+    "lon": "12.305347"
+  },
+  "N587": {
+    "name": "Jessen (Elster)-Naundorf",
+    "lat": "51.924458",
+    "lon": "12.888843"
+  },
+  "N601": {
+    "name": "Wernigerode-Schierke",
+    "lat": "51.76585",
+    "lon": "10.653302"
+  },
+  "N616": {
+    "name": "Oberharz am Brocken-Stiege",
+    "lat": "51.66467",
+    "lon": "10.881001"
+  },
+  "N620": {
+    "name": "Quedlinburg",
+    "lat": "51.795335",
+    "lon": "11.131992"
+  },
+  "N632": {
+    "name": "Aschersleben-Mehringen",
+    "lat": "51.725945",
+    "lon": "11.510962"
+  },
+  "N652": {
+    "name": "Köthen (Anhalt)",
+    "lat": "51.751087",
+    "lon": "12.009351"
+  },
+  "N671": {
+    "name": "Kemberg-Radis",
+    "lat": "51.755677",
+    "lon": "12.510429"
+  },
+  "N714": {
+    "name": "Südharz-Dietersdorf",
+    "lat": "51.530667",
+    "lon": "11.045651"
+  },
+  "N748": {
+    "name": "Querfurt-Mühle Lodersleben",
+    "lat": "51.389498",
+    "lon": "11.541221"
+  },
+  "N750": {
+    "name": "Seegebiet Mansfelder Land-Dederstedt",
+    "lat": "51.542637",
+    "lon": "11.694748"
+  },
+  "N769": {
+    "name": "Lauchstädt, Bad",
+    "lat": "51.39092",
+    "lon": "11.878575"
+  },
+  "N815": {
+    "name": "Bibra, Bad-Altenroda",
+    "lat": "51.238782",
+    "lon": "11.577004"
+  },
+  "N855": {
+    "name": "Freyburg/Unstrut-Zeuchfeld",
+    "lat": "51.237996",
+    "lon": "11.829549"
+  },
+  "N924": {
+    "name": "Naumburg/Saale-Kreipitzsch",
+    "lat": "51.104498",
+    "lon": "11.711274"
+  },
+  "N977": {
+    "name": "Zeitz",
+    "lat": "51.031411",
+    "lon": "12.14949"
+  },
+  "O025": {
+    "name": "Muskau, Bad",
+    "lat": "51.565979",
+    "lon": "14.70081"
+  },
+  "O039": {
+    "name": "Schönwölkau-Brinnis",
+    "lat": "51.517074",
+    "lon": "12.436159"
+  },
+  "O057": {
+    "name": "Klitzschen bei Torgau",
+    "lat": "51.518528",
+    "lon": "12.906488"
+  },
+  "O099": {
+    "name": "Hähnichen-Trebus",
+    "lat": "51.344466",
+    "lon": "14.838693"
+  },
+  "O120": {
+    "name": "Eilenburg",
+    "lat": "51.460338",
+    "lon": "12.668652"
+  },
+  "O141": {
+    "name": "Belgershain",
+    "lat": "51.235936",
+    "lon": "12.551653"
+  },
+  "O182": {
+    "name": "Boxberg",
+    "lat": "51.403604",
+    "lon": "14.566793"
+  },
+  "O204": {
+    "name": "Markranstädt-Großlehna",
+    "lat": "51.308993",
+    "lon": "12.171838"
+  },
+  "O248": {
+    "name": "Hirschstein-Heyda",
+    "lat": "51.265101",
+    "lon": "13.358848"
+  },
+  "O251": {
+    "name": "Großenhain-Strauch",
+    "lat": "51.36578",
+    "lon": "13.580054"
+  },
+  "O268": {
+    "name": "Kamenz-Cunnersdorf",
+    "lat": "51.312224",
+    "lon": "14.049887"
+  },
+  "O305": {
+    "name": "Pegau",
+    "lat": "51.169175",
+    "lon": "12.261667"
+  },
+  "O322": {
+    "name": "Grimma-Kleinbothen",
+    "lat": "51.191822",
+    "lon": "12.764537"
+  },
+  "O348": {
+    "name": "Klipphausen-Garsebach",
+    "lat": "51.129431",
+    "lon": "13.432783"
+  },
+  "O380": {
+    "name": "Großpostwitz-Denkwitz",
+    "lat": "51.134682",
+    "lon": "14.434378"
+  },
+  "O384": {
+    "name": "Kubschütz, Kr. Bautzen",
+    "lat": "51.160383",
+    "lon": "14.504184"
+  },
+  "O458": {
+    "name": "Dresden-Hosterwitz",
+    "lat": "51.022068",
+    "lon": "13.847006"
+  },
+  "O461": {
+    "name": "Pulsnitz",
+    "lat": "51.200617",
+    "lon": "14.020732"
+  },
+  "O466": {
+    "name": "Dresden-Neustadt",
+    "lat": "51.068414",
+    "lon": "13.750052"
+  },
+  "O484": {
+    "name": "Sohland/Spree",
+    "lat": "51.059354",
+    "lon": "14.426617"
+  },
+  "O499": {
+    "name": "Ostritz",
+    "lat": "51.026533",
+    "lon": "14.935677"
+  },
+  "O510": {
+    "name": "Geringswalde-Altgeringswalde",
+    "lat": "51.088078",
+    "lon": "12.932593"
+  },
+  "O536": {
+    "name": "Nossen",
+    "lat": "51.050698",
+    "lon": "13.300254"
+  },
+  "O538": {
+    "name": "Freiberg",
+    "lat": "50.926306",
+    "lon": "13.271085"
+  },
+  "O543": {
+    "name": "Wilsdruff-Mohorn",
+    "lat": "51.006309",
+    "lon": "13.471027"
+  },
+  "O566": {
+    "name": "Lohmen/Sachsen",
+    "lat": "50.993291",
+    "lon": "13.980718"
+  },
+  "O580": {
+    "name": "Dürrhennersdorf",
+    "lat": "51.057725",
+    "lon": "14.612784"
+  },
+  "O598": {
+    "name": "Bertsdorf-Hörnitz",
+    "lat": "50.899151",
+    "lon": "14.745622"
+  },
+  "O625": {
+    "name": "Frankenberg-Altenhain",
+    "lat": "50.883649",
+    "lon": "13.042475"
+  },
+  "O660": {
+    "name": "Dippoldiswalde-Reinberg",
+    "lat": "50.911626",
+    "lon": "13.708675"
+  },
+  "O708": {
+    "name": "Crimmitschau-Mannichswalde",
+    "lat": "50.813755",
+    "lon": "12.298537"
+  },
+  "O725": {
+    "name": "Sankt Egidien-Kuhschnappel",
+    "lat": "50.801952",
+    "lon": "12.636575"
+  },
+  "O795": {
+    "name": "Rosenthal-Bielatal",
+    "lat": "50.837726",
+    "lon": "14.071892"
+  },
+  "O805": {
+    "name": "Lichtentanne",
+    "lat": "50.68786",
+    "lon": "12.432937"
+  },
+  "O842": {
+    "name": "Deutschneudorf-Brüderwiese",
+    "lat": "50.619956",
+    "lon": "13.481701"
+  },
+  "O846": {
+    "name": "Marienberg-Rübenau",
+    "lat": "50.580331",
+    "lon": "13.296614"
+  },
+  "O863": {
+    "name": "Aue",
+    "lat": "50.590826",
+    "lon": "12.713873"
+  },
+  "O868": {
+    "name": "Treuen",
+    "lat": "50.5467",
+    "lon": "12.2863"
+  },
+  "O877": {
+    "name": "Stützengrün-Hundshübel",
+    "lat": "50.546686",
+    "lon": "12.570656"
+  },
+  "O882": {
+    "name": "Tannenberg",
+    "lat": "50.607392",
+    "lon": "12.938954"
+  },
+  "O888": {
+    "name": "Raschau",
+    "lat": "50.521941",
+    "lon": "12.828248"
+  },
+  "O950": {
+    "name": "Weischlitz-Heinersgrün",
+    "lat": "50.388691",
+    "lon": "11.995528"
+  },
+  "O974": {
+    "name": "Klingenthal-Kamerun",
+    "lat": "50.359393",
+    "lon": "12.483642"
+  },
+  "O980": {
+    "name": "Elster, Bad-Sohl",
+    "lat": "50.27046",
+    "lon": "12.274171"
+  },
+  "O993": {
+    "name": "Erlbach-Eubabrunn",
+    "lat": "50.304319",
+    "lon": "12.383436"
+  },
+  "P004": {
+    "name": "Oberleichtersbach-Modlos",
+    "lat": "50.266144",
+    "lon": "9.772709"
+  },
+  "P013": {
+    "name": "Sandberg",
+    "lat": "50.351779",
+    "lon": "10.003374"
+  },
+  "P022": {
+    "name": "Ostheim v.d. Rhön",
+    "lat": "50.453837",
+    "lon": "10.221065"
+  },
+  "P029": {
+    "name": "Maßbach",
+    "lat": "50.179768",
+    "lon": "10.271991"
+  },
+  "P032": {
+    "name": "Aubstadt",
+    "lat": "50.333247",
+    "lon": "10.448658"
+  },
+  "P033": {
+    "name": "Königshofen, Bad",
+    "lat": "50.284014",
+    "lon": "10.445599"
+  },
+  "P038": {
+    "name": "Sulzdorf an der Lederhecke",
+    "lat": "50.241724",
+    "lon": "10.566952"
+  },
+  "P050": {
+    "name": "Staffelstein, Bad-Stublang",
+    "lat": "50.080563",
+    "lon": "11.046698"
+  },
+  "P058": {
+    "name": "Itzgrund-Herreth",
+    "lat": "50.133705",
+    "lon": "10.931664"
+  },
+  "P062": {
+    "name": "Ludwigsstadt-Lauenstein",
+    "lat": "50.513104",
+    "lon": "11.36639"
+  },
+  "P066": {
+    "name": "Kronach",
+    "lat": "50.252352",
+    "lon": "11.320925"
+  },
+  "P068": {
+    "name": "Burgkunstadt",
+    "lat": "50.142944",
+    "lon": "11.232231"
+  },
+  "P071": {
+    "name": "Teuschnitz",
+    "lat": "50.400246",
+    "lon": "11.38883"
+  },
+  "P073": {
+    "name": "Steben, Bad",
+    "lat": "50.361759",
+    "lon": "11.622292"
+  },
+  "P079": {
+    "name": "Ludwigschorgast",
+    "lat": "50.122626",
+    "lon": "11.559564"
+  },
+  "P088": {
+    "name": "Stammbach-Querenbach",
+    "lat": "50.153146",
+    "lon": "11.740168"
+  },
+  "P095": {
+    "name": "Rehau",
+    "lat": "50.221377",
+    "lon": "12.027537"
+  },
+  "P098": {
+    "name": "Schönwald/Ofr.-Brunn",
+    "lat": "50.184665",
+    "lon": "12.079139"
+  },
+  "P099": {
+    "name": "Selb-Spielberg",
+    "lat": "50.158673",
+    "lon": "12.038633"
+  },
+  "P100": {
+    "name": "Kahl/Main",
+    "lat": "50.064347",
+    "lon": "8.992973"
+  },
+  "P104": {
+    "name": "Heinrichsthal",
+    "lat": "50.066435",
+    "lon": "9.345818"
+  },
+  "P113": {
+    "name": "Lohr/Main-Halsbach",
+    "lat": "50.0132",
+    "lon": "9.654033"
+  },
+  "P125": {
+    "name": "Arnstein-Müdesheim",
+    "lat": "49.969403",
+    "lon": "9.911391"
+  },
+  "P131": {
+    "name": "Schonungen-Mainberg",
+    "lat": "50.05794",
+    "lon": "10.297205"
+  },
+  "P137": {
+    "name": "Kolitzheim",
+    "lat": "49.916399",
+    "lon": "10.236273"
+  },
+  "P138": {
+    "name": "Prosselsheim-Seligenstadt",
+    "lat": "49.852643",
+    "lon": "10.100557"
+  },
+  "P141": {
+    "name": "Königsberg/Bayern-Holzhausen",
+    "lat": "50.078549",
+    "lon": "10.488725"
+  },
+  "P148": {
+    "name": "Ebrach",
+    "lat": "49.851954",
+    "lon": "10.499124"
+  },
+  "P151": {
+    "name": "Rentweinsdorf-Treinfeld",
+    "lat": "50.061455",
+    "lon": "10.812862"
+  },
+  "P158": {
+    "name": "Scheßlitz-Köttensdorf",
+    "lat": "49.956",
+    "lon": "11.018917"
+  },
+  "P164": {
+    "name": "Thurnau-Tannfeld",
+    "lat": "49.984179",
+    "lon": "11.400763"
+  },
+  "P168": {
+    "name": "Aufseß-Hochstahl",
+    "lat": "49.882337",
+    "lon": "11.265587"
+  },
+  "P175": {
+    "name": "Heinersreuth-Vollhof",
+    "lat": "49.966617",
+    "lon": "11.519843"
+  },
+  "P179": {
+    "name": "Creußen-Bühl",
+    "lat": "49.844859",
+    "lon": "11.616042"
+  },
+  "P182": {
+    "name": "Fichtelberg/Oberfranken-Hüttstadl",
+    "lat": "49.980702",
+    "lon": "11.837601"
+  },
+  "P185": {
+    "name": "Waldershof-Schafbruck",
+    "lat": "49.935992",
+    "lon": "12.093472"
+  },
+  "P189": {
+    "name": "Pressath-Mühlberg",
+    "lat": "49.784426",
+    "lon": "12.03309"
+  },
+  "P190": {
+    "name": "Hohenberg/Eger",
+    "lat": "50.092005",
+    "lon": "12.213351"
+  },
+  "P197": {
+    "name": "Mähring",
+    "lat": "49.911341",
+    "lon": "12.527552"
+  },
+  "P198": {
+    "name": "Tirschenreuth-Lodermühl",
+    "lat": "49.857617",
+    "lon": "12.354218"
+  },
+  "P222": {
+    "name": "Altertheim-Oberaltertheim",
+    "lat": "49.728385",
+    "lon": "9.769204"
+  },
+  "P228": {
+    "name": "Bütthard",
+    "lat": "49.606254",
+    "lon": "9.88342"
+  },
+  "P232": {
+    "name": "Kitzingen",
+    "lat": "49.736318",
+    "lon": "10.178126"
+  },
+  "P236": {
+    "name": "Markt Bibart",
+    "lat": "49.66597",
+    "lon": "10.385074"
+  },
+  "P237": {
+    "name": "Ergersheim-Neuherberg",
+    "lat": "49.520012",
+    "lon": "10.285397"
+  },
+  "P238": {
+    "name": "Gollhofen",
+    "lat": "49.567948",
+    "lon": "10.196927"
+  },
+  "P257": {
+    "name": "Möhrendorf-Kleinseebach",
+    "lat": "49.649749",
+    "lon": "11.007464"
+  },
+  "P262": {
+    "name": "Gößweinstein",
+    "lat": "49.765641",
+    "lon": "11.306236"
+  },
+  "P265": {
+    "name": "Gräfenberg-Kasberg",
+    "lat": "49.66399",
+    "lon": "11.223886"
+  },
+  "P270": {
+    "name": "Plech",
+    "lat": "49.648967",
+    "lon": "11.468533"
+  },
+  "P280": {
+    "name": "Neustadt am Kulm-Filchendorf",
+    "lat": "49.817404",
+    "lon": "11.863829"
+  },
+  "P287": {
+    "name": "Freihung-Großschönbrunn",
+    "lat": "49.574739",
+    "lon": "11.885901"
+  },
+  "P294": {
+    "name": "Flossenbürg",
+    "lat": "49.731639",
+    "lon": "12.348947"
+  },
+  "P298": {
+    "name": "Waidhaus-Pfrentsch",
+    "lat": "49.61803",
+    "lon": "12.489486"
+  },
+  "P299": {
+    "name": "Schönsee-Dietersdorf",
+    "lat": "49.527338",
+    "lon": "12.570533"
+  },
+  "P300": {
+    "name": "Simmershofen-Adelhofen",
+    "lat": "49.533376",
+    "lon": "10.154603"
+  },
+  "P302": {
+    "name": "Burgbernheim",
+    "lat": "49.45493",
+    "lon": "10.32406"
+  },
+  "P305": {
+    "name": "Rothenburg ob der Tauber",
+    "lat": "49.384854",
+    "lon": "10.173232"
+  },
+  "P308": {
+    "name": "Neuburg/Kammel-Langenhaslach",
+    "lat": "48.311446",
+    "lon": "10.377319"
+  },
+  "P315": {
+    "name": "Dietenhofen",
+    "lat": "49.41584",
+    "lon": "10.673442"
+  },
+  "P317": {
+    "name": "Weihenzell-Grüb",
+    "lat": "49.33757",
+    "lon": "10.60599"
+  },
+  "P319": {
+    "name": "Weidenbach-Weiherschneidbach",
+    "lat": "49.224877",
+    "lon": "10.608471"
+  },
+  "P321": {
+    "name": "Langenzenn",
+    "lat": "49.50758",
+    "lon": "10.788474"
+  },
+  "P327": {
+    "name": "Rohr/Mittelfranken-Dechendorf",
+    "lat": "49.308214",
+    "lon": "10.918333"
+  },
+  "P333": {
+    "name": "Nürnberg-Netzstall",
+    "lat": "49.425771",
+    "lon": "11.253851"
+  },
+  "P337": {
+    "name": "Wendelstein-Kleinschwarzenlohe",
+    "lat": "49.34252",
+    "lon": "11.107672"
+  },
+  "P343": {
+    "name": "Pommelsbrunn-Mittelburg",
+    "lat": "49.477723",
+    "lon": "11.535701"
+  },
+  "P350": {
+    "name": "Neumarkt-Höhenberg",
+    "lat": "49.27127",
+    "lon": "11.488143"
+  },
+  "P354": {
+    "name": "Amberg-Unterammersricht",
+    "lat": "49.469061",
+    "lon": "11.854626"
+  },
+  "P355": {
+    "name": "Röllbach",
+    "lat": "49.764399",
+    "lon": "9.253038"
+  },
+  "P356": {
+    "name": "Kastl, Kreis Amberg-Sulzbach",
+    "lat": "49.365825",
+    "lon": "11.692529"
+  },
+  "P359": {
+    "name": "Schmidmühlen",
+    "lat": "49.280634",
+    "lon": "11.913996"
+  },
+  "P363": {
+    "name": "Schmidgaden",
+    "lat": "49.411632",
+    "lon": "12.076027"
+  },
+  "P366": {
+    "name": "Schwandorf",
+    "lat": "49.327835",
+    "lon": "12.087053"
+  },
+  "P370": {
+    "name": "Trausnitz-Reisach",
+    "lat": "49.532132",
+    "lon": "12.279805"
+  },
+  "P372": {
+    "name": "Oberviechtach",
+    "lat": "49.452096",
+    "lon": "12.436546"
+  },
+  "P374": {
+    "name": "Altendorf",
+    "lat": "49.405261",
+    "lon": "12.285162"
+  },
+  "P379": {
+    "name": "Roding-Neubäu",
+    "lat": "49.241248",
+    "lon": "12.412489"
+  },
+  "P389": {
+    "name": "Weiding, Kreis Cham-Dalking",
+    "lat": "49.271663",
+    "lon": "12.745063"
+  },
+  "P405": {
+    "name": "Dinkelsbühl-Oberwinstetten",
+    "lat": "49.050355",
+    "lon": "10.289244"
+  },
+  "P411": {
+    "name": "Haundorf-Obererlbach",
+    "lat": "49.183955",
+    "lon": "10.824304"
+  },
+  "P412": {
+    "name": "Altmühlsee",
+    "lat": "49.142339",
+    "lon": "10.730064"
+  },
+  "P418": {
+    "name": "Polsingen-Döckingen",
+    "lat": "48.934372",
+    "lon": "10.758503"
+  },
+  "P421": {
+    "name": "Georgensgmünd",
+    "lat": "49.19344",
+    "lon": "11.026709"
+  },
+  "P425": {
+    "name": "Thalmässing",
+    "lat": "49.087139",
+    "lon": "11.223591"
+  },
+  "P433": {
+    "name": "Berching",
+    "lat": "49.111587",
+    "lon": "11.432949"
+  },
+  "P441": {
+    "name": "Parsberg/Oberpfalz-Eglwang",
+    "lat": "49.151026",
+    "lon": "11.689666"
+  },
+  "P444": {
+    "name": "Beratzhausen",
+    "lat": "49.102229",
+    "lon": "11.795992"
+  },
+  "P448": {
+    "name": "Riedenburg",
+    "lat": "48.955495",
+    "lon": "11.728019"
+  },
+  "P453": {
+    "name": "Nittenau-Harting",
+    "lat": "49.165767",
+    "lon": "12.278799"
+  },
+  "P460": {
+    "name": "Hagelstadt",
+    "lat": "48.895982",
+    "lon": "12.216961"
+  },
+  "P463": {
+    "name": "Schorndorf-Knöbling",
+    "lat": "49.16435",
+    "lon": "12.617494"
+  },
+  "P467": {
+    "name": "Wiesenfelden-Utzenzell",
+    "lat": "49.032019",
+    "lon": "12.550537"
+  },
+  "P477": {
+    "name": "Sankt Englmar",
+    "lat": "49.002889",
+    "lon": "12.823688"
+  },
+  "P480": {
+    "name": "Hinterschmiding-Sonndorf",
+    "lat": "48.825652",
+    "lon": "13.59223"
+  },
+  "P481": {
+    "name": "Lam-Lambach",
+    "lat": "49.215374",
+    "lon": "13.066221"
+  },
+  "P501": {
+    "name": "Reimlingen",
+    "lat": "48.825254",
+    "lon": "10.506667"
+  },
+  "P505": {
+    "name": "Aura im Sinngrund",
+    "lat": "50.180523",
+    "lon": "9.574273"
+  },
+  "P515": {
+    "name": "Donauwörth-Osterweiler",
+    "lat": "48.737412",
+    "lon": "10.739322"
+  },
+  "P521": {
+    "name": "Tagmersheim-Blossenau",
+    "lat": "48.81038",
+    "lon": "10.935972"
+  },
+  "P522": {
+    "name": "Eichstätt-Landershofen",
+    "lat": "48.877769",
+    "lon": "11.234887"
+  },
+  "P532": {
+    "name": "Kösching",
+    "lat": "48.830189",
+    "lon": "11.487243"
+  },
+  "P542": {
+    "name": "Markt Erlbach-Hagenhofen",
+    "lat": "49.4875",
+    "lon": "10.6277"
+  },
+  "P548": {
+    "name": "Elsendorf-Horneck",
+    "lat": "48.701956",
+    "lon": "11.849253"
+  },
+  "P549": {
+    "name": "Geisenfeld-Engelbrechtsmünster",
+    "lat": "48.689416",
+    "lon": "11.635317"
+  },
+  "P551": {
+    "name": "Langquaid-Oberschneidhart",
+    "lat": "48.860817",
+    "lon": "12.032303"
+  },
+  "P555": {
+    "name": "Mallersdorf-Pfaffenberg-Oberlindhart",
+    "lat": "48.754821",
+    "lon": "12.211843"
+  },
+  "P557": {
+    "name": "Hohenthann",
+    "lat": "48.657184",
+    "lon": "12.088712"
+  },
+  "P571": {
+    "name": "Bogen-Pfelling",
+    "lat": "48.884636",
+    "lon": "12.745292"
+  },
+  "P572": {
+    "name": "Metten",
+    "lat": "48.85476",
+    "lon": "12.918911"
+  },
+  "P581": {
+    "name": "Kirchberg/Niederbayern -Zell",
+    "lat": "48.902292",
+    "lon": "13.14419"
+  },
+  "P585": {
+    "name": "Osterhofen-Thundorf",
+    "lat": "48.757676",
+    "lon": "13.013434"
+  },
+  "P586": {
+    "name": "Saldenburg-Entschenreuth",
+    "lat": "48.783156",
+    "lon": "13.314592"
+  },
+  "P594": {
+    "name": "Grainet-Rehberg",
+    "lat": "48.78935",
+    "lon": "13.629026"
+  },
+  "P597": {
+    "name": "Büchlberg-Tannöd",
+    "lat": "48.654923",
+    "lon": "13.507703"
+  },
+  "P599": {
+    "name": "Sonnen",
+    "lat": "48.681855",
+    "lon": "13.735115"
+  },
+  "P602": {
+    "name": "Dillingen/Donau-Fristingen",
+    "lat": "48.556222",
+    "lon": "10.559978"
+  },
+  "P606": {
+    "name": "Günzburg",
+    "lat": "48.487813",
+    "lon": "10.260783"
+  },
+  "P618": {
+    "name": "Diedorf/Schwaben-Biburg",
+    "lat": "48.373725",
+    "lon": "10.760493"
+  },
+  "P621": {
+    "name": "Rain am Lech-Wallerdorf",
+    "lat": "48.619187",
+    "lon": "11.00585"
+  },
+  "P627": {
+    "name": "Schrobenhausen",
+    "lat": "48.553221",
+    "lon": "11.284413"
+  },
+  "P629": {
+    "name": "Altomünster-Maisbrunn",
+    "lat": "48.406036",
+    "lon": "11.311694"
+  },
+  "P637": {
+    "name": "Scheyern",
+    "lat": "48.502505",
+    "lon": "11.45433"
+  },
+  "P639": {
+    "name": "Fahrenzhausen",
+    "lat": "48.363104",
+    "lon": "11.563476"
+  },
+  "P642": {
+    "name": "Schweitenkirchen-Sünzhausen",
+    "lat": "48.515095",
+    "lon": "11.654534"
+  },
+  "P645": {
+    "name": "Nandlstadt",
+    "lat": "48.523465",
+    "lon": "11.839823"
+  },
+  "P659": {
+    "name": "Oberschleißheim",
+    "lat": "48.244344",
+    "lon": "11.552779"
+  },
+  "P661": {
+    "name": "Loiching",
+    "lat": "48.6106",
+    "lon": "12.414314"
+  },
+  "P663": {
+    "name": "Mamming-Schneiderberg",
+    "lat": "48.618864",
+    "lon": "12.623317"
+  },
+  "P666": {
+    "name": "Vilsbiburg",
+    "lat": "48.452739",
+    "lon": "12.33816"
+  },
+  "P674": {
+    "name": "Falkenberg,Kr.Rottal-Inn",
+    "lat": "48.483155",
+    "lon": "12.724136"
+  },
+  "P678": {
+    "name": "Wurmannsquick-Egelsberg",
+    "lat": "48.356884",
+    "lon": "12.767929"
+  },
+  "P681": {
+    "name": "Aldersbach-Kramersepp",
+    "lat": "48.618259",
+    "lon": "13.062023"
+  },
+  "P687": {
+    "name": "Pfarrkirchen",
+    "lat": "48.425235",
+    "lon": "12.992366"
+  },
+  "P688": {
+    "name": "Rotthalmünster (Landwirtschaftsamt)",
+    "lat": "48.361736",
+    "lon": "13.193778"
+  },
+  "P689": {
+    "name": "Pocking",
+    "lat": "48.395245",
+    "lon": "13.313896"
+  },
+  "P699": {
+    "name": "Untergriesbach-Glotzing",
+    "lat": "48.559856",
+    "lon": "13.74948"
+  },
+  "P702": {
+    "name": "Weißenhorn-Oberreichenbach",
+    "lat": "48.309072",
+    "lon": "10.20486"
+  },
+  "P741": {
+    "name": "Maisach-Galgen",
+    "lat": "48.206984",
+    "lon": "11.203508"
+  },
+  "P760": {
+    "name": "Nassenfels",
+    "lat": "48.801603",
+    "lon": "11.218112"
+  },
+  "P765": {
+    "name": "Isen-Westach",
+    "lat": "48.202197",
+    "lon": "12.038203"
+  },
+  "P768": {
+    "name": "Ebersberg-Halbing",
+    "lat": "48.100334",
+    "lon": "11.987202"
+  },
+  "P785": {
+    "name": "Tüßling",
+    "lat": "48.208035",
+    "lon": "12.62963"
+  },
+  "P788": {
+    "name": "Tacherting-Spreit",
+    "lat": "48.089006",
+    "lon": "12.50726"
+  },
+  "P794": {
+    "name": "Simbach/Inn",
+    "lat": "48.271797",
+    "lon": "13.027276"
+  },
+  "P801": {
+    "name": "Memmingen",
+    "lat": "47.982065",
+    "lon": "10.13838"
+  },
+  "P803": {
+    "name": "Ottobeuren",
+    "lat": "47.930302",
+    "lon": "10.310003"
+  },
+  "P804": {
+    "name": "Attenkam",
+    "lat": "47.877428",
+    "lon": "11.364282"
+  },
+  "P817": {
+    "name": "Kaufbeuren-Oberbeuren",
+    "lat": "47.876124",
+    "lon": "10.584889"
+  },
+  "P818": {
+    "name": "Kraftisried",
+    "lat": "47.767357",
+    "lon": "10.460351"
+  },
+  "P821": {
+    "name": "Buchloe",
+    "lat": "48.044297",
+    "lon": "10.737473"
+  },
+  "P824": {
+    "name": "Vilgertshofen-Pflugdorf",
+    "lat": "47.969176",
+    "lon": "10.915143"
+  },
+  "P829": {
+    "name": "Steingaden-Lauterbach",
+    "lat": "47.71121",
+    "lon": "10.875798"
+  },
+  "P830": {
+    "name": "Oberhaching-Laufzorn",
+    "lat": "48.013027",
+    "lon": "11.552433"
+  },
+  "P831": {
+    "name": "Wielenbach (Demollstr.)",
+    "lat": "47.882679",
+    "lon": "11.157584"
+  },
+  "P846": {
+    "name": "Schäftlarn-Kloster Schäftlarn",
+    "lat": "47.976706",
+    "lon": "11.469292"
+  },
+  "P856": {
+    "name": "Holzkirchen",
+    "lat": "47.882292",
+    "lon": "11.696146"
+  },
+  "P862": {
+    "name": "Feldkirchen-Westerham-Lenzmühle",
+    "lat": "47.94114",
+    "lon": "11.90044"
+  },
+  "P870": {
+    "name": "Irschenberg-Kasthub",
+    "lat": "47.817673",
+    "lon": "11.868114"
+  },
+  "P873": {
+    "name": "Vogtareuth (Kläranlage)",
+    "lat": "47.955004",
+    "lon": "12.17346"
+  },
+  "P874": {
+    "name": "Amerang-Pfaffing",
+    "lat": "48.019737",
+    "lon": "12.292473"
+  },
+  "P875": {
+    "name": "Chiemsee-Herrenchiemsee",
+    "lat": "47.86649",
+    "lon": "12.395005"
+  },
+  "P881": {
+    "name": "Trostberg",
+    "lat": "48.031106",
+    "lon": "12.539575"
+  },
+  "P887": {
+    "name": "Sigmarszell-Zeisertsweiler",
+    "lat": "47.577598",
+    "lon": "9.740446"
+  },
+  "P892": {
+    "name": "Waging am See",
+    "lat": "47.923665",
+    "lon": "12.755781"
+  },
+  "P893": {
+    "name": "Teisendorf",
+    "lat": "47.852611",
+    "lon": "12.82819"
+  },
+  "P894": {
+    "name": "Waging am See-Schnöbling",
+    "lat": "47.958838",
+    "lon": "12.771663"
+  },
+  "P900": {
+    "name": "Frasdorf-Greimelberg",
+    "lat": "47.819005",
+    "lon": "12.295636"
+  },
+  "P903": {
+    "name": "Lindau (SWN)",
+    "lat": "47.539586",
+    "lon": "9.684332"
+  },
+  "P904": {
+    "name": "Siegsdorf-Höll",
+    "lat": "47.835009",
+    "lon": "12.654781"
+  },
+  "P908": {
+    "name": "Oberreute",
+    "lat": "47.553798",
+    "lon": "9.940647"
+  },
+  "P914": {
+    "name": "Immenstadt-Reute",
+    "lat": "47.607783",
+    "lon": "10.202039"
+  },
+  "P916": {
+    "name": "Balderschwang",
+    "lat": "47.465031",
+    "lon": "10.104292"
+  },
+  "P924": {
+    "name": "Oy-Mittelberg-Petersthal",
+    "lat": "47.636179",
+    "lon": "10.38923"
+  },
+  "P935": {
+    "name": "Halblech-Bayerniederhofen",
+    "lat": "47.624753",
+    "lon": "10.807482"
+  },
+  "P942": {
+    "name": "Kohlgrub, Bad (Rosshof)",
+    "lat": "47.665187",
+    "lon": "11.080459"
+  },
+  "P944": {
+    "name": "Oberammergau",
+    "lat": "47.602966",
+    "lon": "11.060714"
+  },
+  "P946": {
+    "name": "Mehring, Kr. Altötting-Niederholz",
+    "lat": "48.186976",
+    "lon": "12.809797"
+  },
+  "P948": {
+    "name": "Mittenwald-Buckelwiesen",
+    "lat": "47.481443",
+    "lon": "11.264947"
+  },
+  "P949": {
+    "name": "Mittenwald/Obb.",
+    "lat": "47.428678",
+    "lon": "11.261625"
+  },
+  "P956": {
+    "name": "Jachenau-Tannern",
+    "lat": "47.627941",
+    "lon": "11.516628"
+  },
+  "P958": {
+    "name": "Kreuth-Glashütte",
+    "lat": "47.610509",
+    "lon": "11.646185"
+  },
+  "P960": {
+    "name": "Waakirchen-Demmelberg",
+    "lat": "47.756447",
+    "lon": "11.692754"
+  },
+  "P966": {
+    "name": "Obere Firstalm/Schlierseer Berge",
+    "lat": "47.67046",
+    "lon": "11.85393"
+  },
+  "P971": {
+    "name": "Brannenburg-Degerndorf",
+    "lat": "47.724089",
+    "lon": "12.109214"
+  },
+  "P974": {
+    "name": "Aschau-Stein",
+    "lat": "47.727538",
+    "lon": "12.298183"
+  },
+  "P975": {
+    "name": "Kiefersfelden-Gach",
+    "lat": "47.618701",
+    "lon": "12.166532"
+  },
+  "P991": {
+    "name": "Piding",
+    "lat": "47.77239",
+    "lon": "12.907282"
+  },
+  "P994": {
+    "name": "Marktschellenberg",
+    "lat": "47.704589",
+    "lon": "13.037189"
+  },
+  "P995": {
+    "name": "Ramsau-Schwarzeck/Schmuck",
+    "lat": "47.627899",
+    "lon": "12.901492"
+  },
+  "P996": {
+    "name": "Berchtesgaden",
+    "lat": "47.639214",
+    "lon": "13.006754"
+  },
+  "Q017": {
+    "name": "Heidelberg-Kurpfalzhof",
+    "lat": "49.376654",
+    "lon": "8.617704"
+  },
+  "Q027": {
+    "name": "Neckargemünd-Kleingemünd",
+    "lat": "49.394491",
+    "lon": "8.804528"
+  },
+  "Q033": {
+    "name": "Königheim",
+    "lat": "49.62055",
+    "lon": "9.603587"
+  },
+  "Q047": {
+    "name": "Elztal-Rittersbach",
+    "lat": "49.425133",
+    "lon": "9.242957"
+  },
+  "Q053": {
+    "name": "Walldürn",
+    "lat": "49.578869",
+    "lon": "9.397448"
+  },
+  "Q055": {
+    "name": "Buchen, Kr. Neckar-Odenwald",
+    "lat": "49.518188",
+    "lon": "9.321293"
+  },
+  "Q059": {
+    "name": "Seckach",
+    "lat": "49.424907",
+    "lon": "9.331558"
+  },
+  "Q060": {
+    "name": "Stockach",
+    "lat": "47.859059",
+    "lon": "9.015181"
+  },
+  "Q061": {
+    "name": "Notzingen",
+    "lat": "48.670477",
+    "lon": "9.462704"
+  },
+  "Q062": {
+    "name": "Freudenberg/Main-Boxtal",
+    "lat": "49.763628",
+    "lon": "9.406294"
+  },
+  "Q066": {
+    "name": "Lauda-Königshofen-Heckfeld",
+    "lat": "49.552228",
+    "lon": "9.634495"
+  },
+  "Q076": {
+    "name": "Mergentheim, Bad",
+    "lat": "49.47969",
+    "lon": "9.783168"
+  },
+  "Q104": {
+    "name": "Waghäusel-Kirrlach",
+    "lat": "49.244471",
+    "lon": "8.537434"
+  },
+  "Q165": {
+    "name": "Ingelfingen-Stachenhausen",
+    "lat": "49.332757",
+    "lon": "9.704012"
+  },
+  "Q171": {
+    "name": "Kupferzell-Rechbach",
+    "lat": "49.242842",
+    "lon": "9.67859"
+  },
+  "Q221": {
+    "name": "Eppingen-Elsenz",
+    "lat": "49.166069",
+    "lon": "8.848326"
+  },
+  "Q242": {
+    "name": "Obersulm-Willsbach",
+    "lat": "49.128011",
+    "lon": "9.352493"
+  },
+  "Q243": {
+    "name": "Heilbronn/Neckar",
+    "lat": "49.125949",
+    "lon": "9.142819"
+  },
+  "Q261": {
+    "name": "Wüstenrot-Oberheimbach",
+    "lat": "49.12951",
+    "lon": "9.494478"
+  },
+  "Q292": {
+    "name": "Kirchberg/Jagst-Herboldshausen",
+    "lat": "49.180406",
+    "lon": "9.979985"
+  },
+  "Q295": {
+    "name": "Stimpfach-Weipertshofen",
+    "lat": "49.087798",
+    "lon": "10.124031"
+  },
+  "Q318": {
+    "name": "Wildbad, Bad-Calmbach",
+    "lat": "48.784843",
+    "lon": "8.576383"
+  },
+  "Q332": {
+    "name": "Pforzheim-Ispringen",
+    "lat": "48.932916",
+    "lon": "8.697265"
+  },
+  "Q333": {
+    "name": "Bruchsal-Heidelsheim",
+    "lat": "49.112726",
+    "lon": "8.637225"
+  },
+  "Q334": {
+    "name": "Abtsgmünd-Untergröningen",
+    "lat": "48.921939",
+    "lon": "9.912859"
+  },
+  "Q341": {
+    "name": "Sachsenheim",
+    "lat": "48.95688",
+    "lon": "9.071052"
+  },
+  "Q351": {
+    "name": "Großerlach-Mannenweiler",
+    "lat": "49.021043",
+    "lon": "9.603252"
+  },
+  "Q375": {
+    "name": "Winterbach/Remstal",
+    "lat": "48.805907",
+    "lon": "9.504579"
+  },
+  "Q378": {
+    "name": "Schwäbisch Gmünd-Weiler",
+    "lat": "48.769466",
+    "lon": "9.873745"
+  },
+  "Q382": {
+    "name": "Ellwangen-Rindelbach",
+    "lat": "48.989494",
+    "lon": "10.131236"
+  },
+  "Q395": {
+    "name": "Lauchheim (Berghof)",
+    "lat": "48.876679",
+    "lon": "10.241347"
+  },
+  "Q404": {
+    "name": "Rheinau-Memprechtshofen",
+    "lat": "48.670276",
+    "lon": "7.993861"
+  },
+  "Q408": {
+    "name": "Kehl-Odelshofen",
+    "lat": "48.557579",
+    "lon": "7.879983"
+  },
+  "Q410": {
+    "name": "Hornisgrinde",
+    "lat": "48.613637",
+    "lon": "8.203343"
+  },
+  "Q411": {
+    "name": "Baden-Baden-Geroldsau",
+    "lat": "48.726985",
+    "lon": "8.245738"
+  },
+  "Q425": {
+    "name": "Simmersfeld",
+    "lat": "48.619138",
+    "lon": "8.524708"
+  },
+  "Q437": {
+    "name": "Neubulach-Oberhaugstett",
+    "lat": "48.65156",
+    "lon": "8.680111"
+  },
+  "Q440": {
+    "name": "Renningen-Ihinger Hof",
+    "lat": "48.742509",
+    "lon": "8.923969"
+  },
+  "Q461": {
+    "name": "Baltmannsweiler-Hohengehren",
+    "lat": "48.757357",
+    "lon": "9.451366"
+  },
+  "Q481": {
+    "name": "Blumberg-Randen",
+    "lat": "47.818957",
+    "lon": "8.577367"
+  },
+  "Q482": {
+    "name": "Bartholomä",
+    "lat": "48.758432",
+    "lon": "9.985462"
+  },
+  "Q485": {
+    "name": "Hermaringen-Allewind",
+    "lat": "48.609888",
+    "lon": "10.267397"
+  },
+  "Q491": {
+    "name": "Nattheim-Fleinheim",
+    "lat": "48.707084",
+    "lon": "10.299698"
+  },
+  "Q511": {
+    "name": "Durbach-Ebersweier",
+    "lat": "48.501722",
+    "lon": "7.994298"
+  },
+  "Q518": {
+    "name": "Ohlsbach",
+    "lat": "48.432972",
+    "lon": "7.993002"
+  },
+  "Q522": {
+    "name": "Baiersbronn-Mitteltal",
+    "lat": "48.511594",
+    "lon": "8.317613"
+  },
+  "Q554": {
+    "name": "Rottenburg-Kiebingen",
+    "lat": "48.470407",
+    "lon": "8.968701"
+  },
+  "Q561": {
+    "name": "Metzingen",
+    "lat": "48.537661",
+    "lon": "9.273374"
+  },
+  "Q574": {
+    "name": "Westerheim",
+    "lat": "48.520569",
+    "lon": "9.618713"
+  },
+  "Q579": {
+    "name": "Merklingen",
+    "lat": "48.512173",
+    "lon": "9.764396"
+  },
+  "Q622": {
+    "name": "Wolfach",
+    "lat": "48.295324",
+    "lon": "8.239068"
+  },
+  "Q642": {
+    "name": "Haigerloch-Weildorf",
+    "lat": "48.37049",
+    "lon": "8.766593"
+  },
+  "Q651": {
+    "name": "Hechingen",
+    "lat": "48.375242",
+    "lon": "8.980043"
+  },
+  "Q655": {
+    "name": "Burladingen-Hausen",
+    "lat": "48.296213",
+    "lon": "9.070085"
+  },
+  "Q671": {
+    "name": "Münsingen-Apfelstetten",
+    "lat": "48.385084",
+    "lon": "9.483739"
+  },
+  "Q679": {
+    "name": "Ehingen-Kirchen",
+    "lat": "48.275422",
+    "lon": "9.63545"
+  },
+  "Q702": {
+    "name": "Emmendingen-Mundingen",
+    "lat": "48.137773",
+    "lon": "7.83505"
+  },
+  "Q703": {
+    "name": "Weisweil-Waldeckhof",
+    "lat": "48.188008",
+    "lon": "7.697606"
+  },
+  "Q709": {
+    "name": "Freiburg-Mitte",
+    "lat": "48.000646",
+    "lon": "7.845026"
+  },
+  "Q712": {
+    "name": "Elzach-Fisnacht",
+    "lat": "48.201207",
+    "lon": "8.10884"
+  },
+  "Q713": {
+    "name": "Herrenberg",
+    "lat": "48.591536",
+    "lon": "8.854123"
+  },
+  "Q715": {
+    "name": "Haslach im Kinzigtal",
+    "lat": "48.276628",
+    "lon": "8.084099"
+  },
+  "Q716": {
+    "name": "Simonswald-Obersimonswald",
+    "lat": "48.082096",
+    "lon": "8.091871"
+  },
+  "Q731": {
+    "name": "Eschbronn-Mariazell",
+    "lat": "48.186764",
+    "lon": "8.467166"
+  },
+  "Q733": {
+    "name": "Rottweil",
+    "lat": "48.181464",
+    "lon": "8.635552"
+  },
+  "Q738": {
+    "name": "Villingen-Schwenningen",
+    "lat": "48.045325",
+    "lon": "8.460769"
+  },
+  "Q739": {
+    "name": "Neuhausen ob Eck-Unterschwandorf",
+    "lat": "47.951903",
+    "lon": "8.993205"
+  },
+  "Q740": {
+    "name": "Balingen-Bronnhaupten",
+    "lat": "48.263886",
+    "lon": "8.813443"
+  },
+  "Q762": {
+    "name": "Langenenslingen-Ittenhausen",
+    "lat": "48.199422",
+    "lon": "9.332656"
+  },
+  "Q763": {
+    "name": "Mengen-Ennetach",
+    "lat": "48.055686",
+    "lon": "9.3185"
+  },
+  "Q771": {
+    "name": "Altheim, Kreis Biberach",
+    "lat": "48.147903",
+    "lon": "9.459615"
+  },
+  "Q786": {
+    "name": "Biberach an der Riß-Bergerhausen",
+    "lat": "48.100329",
+    "lon": "9.805753"
+  },
+  "Q788": {
+    "name": "Sigmaringen-Laiz",
+    "lat": "48.071864",
+    "lon": "9.194326"
+  },
+  "Q790": {
+    "name": "Deggenhausertal-Azenweiler",
+    "lat": "47.800675",
+    "lon": "9.41082"
+  },
+  "Q794": {
+    "name": "Dietenheim",
+    "lat": "48.209466",
+    "lon": "10.065434"
+  },
+  "Q811": {
+    "name": "Buchenbach",
+    "lat": "47.96248",
+    "lon": "7.998337"
+  },
+  "Q813": {
+    "name": "Breitnau",
+    "lat": "47.938457",
+    "lon": "8.076086"
+  },
+  "Q822": {
+    "name": "Eisenbach",
+    "lat": "47.963364",
+    "lon": "8.269301"
+  },
+  "Q823": {
+    "name": "Lenzkirch-Ruhbühl",
+    "lat": "47.859705",
+    "lon": "8.230755"
+  },
+  "Q824": {
+    "name": "Dachsberg-Wolpadingen",
+    "lat": "47.700359",
+    "lon": "8.105736"
+  },
+  "Q864": {
+    "name": "Pfullendorf",
+    "lat": "47.934471",
+    "lon": "9.28693"
+  },
+  "Q870": {
+    "name": "Donaueschingen (Landeplatz)",
+    "lat": "47.973643",
+    "lon": "8.520464"
+  },
+  "Q879": {
+    "name": "Weingarten, Kr. Ravensburg",
+    "lat": "47.806248",
+    "lon": "9.620579"
+  },
+  "Q880": {
+    "name": "Aulendorf-Blönried",
+    "lat": "47.926106",
+    "lon": "9.592647"
+  },
+  "Q885": {
+    "name": "Waldsee, Bad-Reute",
+    "lat": "47.916658",
+    "lon": "9.707645"
+  },
+  "Q887": {
+    "name": "Müllheim",
+    "lat": "47.806371",
+    "lon": "7.638692"
+  },
+  "Q891": {
+    "name": "Rot an der Rot-Buch",
+    "lat": "47.958867",
+    "lon": "10.013852"
+  },
+  "Q902": {
+    "name": "Malsburg-Marzell",
+    "lat": "47.766726",
+    "lon": "7.720509"
+  },
+  "Q903": {
+    "name": "Kandern-Gupf",
+    "lat": "47.700092",
+    "lon": "7.58947"
+  },
+  "Q909": {
+    "name": "Rheinfelden",
+    "lat": "47.558973",
+    "lon": "7.772149"
+  },
+  "Q911": {
+    "name": "Todtmoos",
+    "lat": "47.727934",
+    "lon": "7.998838"
+  },
+  "Q913": {
+    "name": "Dogern",
+    "lat": "47.602602",
+    "lon": "8.169661"
+  },
+  "Q922": {
+    "name": "Ühlingen-Birkendorf",
+    "lat": "47.745237",
+    "lon": "8.31112"
+  },
+  "Q925": {
+    "name": "Weilheim-Bierbronnen",
+    "lat": "47.680213",
+    "lon": "8.196437"
+  },
+  "Q926": {
+    "name": "Wutöschingen-Ofteringen",
+    "lat": "47.678267",
+    "lon": "8.380132"
+  },
+  "Q942": {
+    "name": "Singen",
+    "lat": "47.773799",
+    "lon": "8.821934"
+  },
+  "Q945": {
+    "name": "Gailingen",
+    "lat": "47.702009",
+    "lon": "8.731762"
+  },
+  "Q946": {
+    "name": "Gottmadingen",
+    "lat": "47.734403",
+    "lon": "8.793208"
+  },
+  "Q951": {
+    "name": "Sipplingen (SWN)",
+    "lat": "47.807556",
+    "lon": "9.103513"
+  },
+  "Q976": {
+    "name": "Friedrichshafen",
+    "lat": "47.645363",
+    "lon": "9.479522"
+  },
+  "Q978": {
+    "name": "Friedrichshafen-Unterraderach",
+    "lat": "47.684486",
+    "lon": "9.440903"
+  },
+  "Q999": {
+    "name": "Wangen/Allgäu-Schwaderberg",
+    "lat": "47.70958",
+    "lon": "9.865965"
+  },
+  "Y001": {
+    "name": "Reit im Winkl/Oberbayern",
+    "lat": "47.673532",
+    "lon": "12.466558"
+  },
+  "Y003": {
+    "name": "Speichersdorf",
+    "lat": "49.871305",
+    "lon": "11.788329"
+  },
+  "Y004": {
+    "name": "Algermissen-Groß Lobke",
+    "lat": "52.273145",
+    "lon": "10.016299"
+  },
+  "Y005": {
+    "name": "Regensburg-Mitte",
+    "lat": "49.015661",
+    "lon": "12.10766"
+  },
+  "Y007": {
+    "name": "Schönau am Königssee",
+    "lat": "47.613376",
+    "lon": "12.981948"
+  },
+  "Y010": {
+    "name": "Seebach (Nationalpark Schwarzwald)",
+    "lat": "48.565056",
+    "lon": "8.22838"
+  },
+  "Y012": {
+    "name": "Adlkofen-Günzkofen",
+    "lat": "48.52417",
+    "lon": "12.270354"
+  }
+}

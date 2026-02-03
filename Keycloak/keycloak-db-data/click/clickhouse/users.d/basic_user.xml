@@ -1,0 +1,13 @@
+<clickhouse>
+  <users>
+    <ch_user>
+      <password>ch_pass</password>
+      <profile>default</profile>
+      <quota>default</quota>
+      <networks>
+        <!-- allow from docker networks -->
+        <ip>::/0</ip>
+      </networks>
+    </ch_user>
+  </users>
+</clickhouse>

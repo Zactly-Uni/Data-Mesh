@@ -1,0 +1,65 @@
+name: kestra-client-only
+
+services:
+  # DB für Kestra 
+  kestra-db:
+    image: postgres:16
+    container_name: kestra-local-db-${USER}
+    environment:
+      POSTGRES_USER: kestra
+      POSTGRES_PASSWORD: kestra_password
+      POSTGRES_DB: kestra
+    networks:
+      - team-network
+    restart: always
+
+  # Kestra Server
+  kestra:
+    image: kestra/kestra:latest
+    user: root 
+    container_name: kestra-server-${USER} 
+    command: server standalone
+    depends_on:
+      - kestra-db
+    ports:
+      - "8095:8080"
+    environment:
+      # --- RAM LIMIT: 0,5 GB ---
+      # Startet mit 256MB, darf maximal auf 512MB wachsen
+      JAVA_OPTS: "-Xms256m -Xmx512m"
+      # -------------------------
+      KESTRA_CONFIGURATION: |
+        datasources:
+          postgres:
+            url: jdbc:postgresql://kestra-db:5432/kestra
+            driverClassName: org.postgresql.Driver
+            username: kestra
+            password: kestra_password
+        kestra:
+          server:
+            basic-auth:
+              enabled: true
+          repository:
+            type: postgres
+          queue:
+            type: postgres
+          storage:
+            type: local
+            local:
+              base-path: /app/storage
+    networks:
+      - team-network
+    volumes:
+      - kestra-data:/app/storage
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /tmp/kestra-wd:/tmp/kestra-wd
+      - /home/datamesh/kestra/flows:/app/flows
+    restart: always
+
+volumes:
+  kestra-data:
+
+networks:
+  team-network:
+    name: redpanda-interop  
+    external: true

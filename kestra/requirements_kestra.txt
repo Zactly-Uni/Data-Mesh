@@ -1,0 +1,5 @@
+requests
+kafka-python
+geopandas
+pyogrio
+

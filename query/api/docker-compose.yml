@@ -1,0 +1,29 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8013:8000"
+    environment:
+      METABASE_URL: ${METABASE_URL}
+      METABASE_USERNAME: ${METABASE_USERNAME}
+      METABASE_PASSWORD: ${METABASE_PASSWORD}
+      TRINO_HOST: ${TRINO_HOST}
+      TRINO_PORT: ${TRINO_PORT}
+      TRINO_USER: ${TRINO_USER}
+      TRINO_CATALOG: ${TRINO_CATALOG}
+      TRINO_SCHEMA: ${TRINO_SCHEMA}
+    networks:
+      - data_net
+    restart: unless-stopped
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+networks:
+  data_net:
+    external: true
+    name: data_net
+
+

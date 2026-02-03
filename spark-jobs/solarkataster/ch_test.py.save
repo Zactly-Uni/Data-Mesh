@@ -1,0 +1,18 @@
+from pyspark.sql import SparkSession
+
+spark = SparkSession.builder.appName("CH_Test").getOrCreate(
+
+df = (
+    spark.read.format("jdbc")
+    .option("url", jdbc_url)
+    .option("dbtable", "system.one")
+    .option("user", "default")
+    .option("password", "")  # leer testen!
+    .option("driver", "com.clickhouse.jdbc.ClickHouseDriver")
+    .option("socket_timeout", "300000")
+    .load()
+)
+
+df.show()
+spark.stop()
+

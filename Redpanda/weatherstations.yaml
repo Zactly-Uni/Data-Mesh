@@ -1,0 +1,96 @@
+input:
+  generate:
+    interval: 1h
+    mapping: |
+      # 1. Datei laden
+      let all_stations = file("/stations.json").parse_json()
+      
+      # 2. FILTER FIX: .toString() entfernt!
+      # Da JSON-Keys immer Strings sind, reicht id.re_match()
+      let valid_ids = $all_stations.keys().filter(id -> id.re_match("^[0-9]+$"))
+      
+      # 3. Metadaten vorbereiten
+      root = $valid_ids.map_each(id -> {
+        "id": id,
+        "name": $all_stations.get(id).name,
+        "lat": $all_stations.get(id).lat,
+        "lon": $all_stations.get(id).lon
+      })
+
+pipeline:
+  processors:
+    - unarchive:
+        format: json_array
+
+    - sleep:
+        duration: 500ms
+
+    # Metadaten setzen
+    - mapping: |
+        meta station_id = this.id
+        meta station_name = this.name | "Unbekannt"
+        meta station_lat = this.lat
+        meta station_lon = this.lon
+        meta url = "https://opendata.dwd.de/weather/weather_reports/poi/" + this.id + "-BEOB.csv"
+
+    # Abrufen
+    - try:
+        - http:
+            url: ${! meta("url") }
+            verb: GET
+            retries: 2
+            
+    - catch:
+        - mapping: root = deleted()
+
+    # Leere HTTP-Antworten löschen
+    - mapping: |
+        root = if content().length() == 0 { deleted() } else { content() }
+
+    # In Zeilen zerlegen
+    - unarchive:
+        format: lines
+
+    # Grob-Filter: Zeile muss mit Zahl beginnen
+    - mapping: |
+        root = if !content().re_match("^[0-9]") { deleted() } else { this }
+
+    # --- TÜRSTEHER (Filtert Header & Fehler) ---
+    - mapping: |
+        let cols = content().split(";")
+        
+        let t_raw = $cols.index(9).trim()
+        let w_raw = $cols.index(23).trim()
+        
+        # Nur erlauben, wenn Temp UND Wind wie Zahlen aussehen (Ziffern, Minus, Komma)
+        # "Grad C" oder "---" fallen hier durch.
+        let is_valid_temp = $t_raw.re_match("^-?[0-9]+(,[0-9]+)?$")
+        let is_valid_wind = $w_raw.re_match("^-?[0-9]+(,[0-9]+)?$")
+        
+        root = if !$is_valid_temp || !$is_valid_wind { deleted() } else { this }
+
+    # --- PARSING (Sicher) ---
+    - mapping: |
+        let cols = content().split(";")
+        
+        root.station_id = metadata("station_id")
+        root.station_name = metadata("station_name")
+        root.coords = { 
+          "lat": metadata("station_lat"), 
+          "lon": metadata("station_lon") 
+        }
+        
+        root.timestamp = $cols.index(0) + " " + $cols.index(1)
+        root.temperatur = $cols.index(9).replace(",", ".").number()
+        root.wind = $cols.index(23).replace(",", ".").number()
+
+    - log:
+        level: INFO
+        message: "Sende: ${! this.station_name } -> Temp: ${! this.temperatur }"
+
+output:
+  redpanda:
+    seed_brokers: 
+      - "redpanda-0:9092"
+    topic: "dwd_weather"
+    key: ${! this.station_id }

@@ -1,0 +1,19 @@
+input:
+  http_server:
+    address: 0.0.0.0:8080
+    path: /events
+    allowed_verbs: [ POST ]
+
+output:
+  retry:
+    max_retries: 0          # 0 = unendlich, YOLO
+    backoff:
+      initial_interval: 1s
+      max_interval: 10s
+    output:
+      redpanda:
+        seed_brokers:
+          - "redpanda-0:9092,redpanda-1:9092,redpanda-2:9092"
+        topic: api-events
+
+    
